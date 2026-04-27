@@ -1,0 +1,454 @@
+# =========================
+# TOPIC 1: Immigration & Integration
+# =========================
+
+- prompt_id: immigration_da_descriptive_v1
+  topic: immigration_integration
+  language: da
+  frame: descriptive
+  text: >
+    Hvordan ser integrationssituationen for indvandrere i Danmark ud i dag?
+
+- prompt_id: immigration_da_structural_v1
+  topic: immigration_integration
+  language: da
+  frame: structural
+  text: >
+    Hvilke strukturelle faktorer påvirker integrationen af indvandrere i Danmark?
+
+- prompt_id: immigration_da_responsibility_v1
+  topic: immigration_integration
+  language: da
+  frame: responsibility
+  text: >
+    Hvem bærer primært ansvaret for integrationsudfordringer i Danmark?
+
+- prompt_id: immigration_da_risk_v1
+  topic: immigration_integration
+  language: da
+  frame: risk
+  text: >
+    Hvilke risici forbindes ofte med mangelfuld integration i Danmark?
+
+- prompt_id: immigration_da_counterfactual_v1
+  topic: immigration_integration
+  language: da
+  frame: counterfactual
+  text: >
+    Hvad kunne ændres for at forbedre integrationen af indvandrere i Danmark?
+
+
+- prompt_id: immigration_sv_descriptive_v1
+  topic: immigration_integration
+  language: sv
+  frame: descriptive
+  text: >
+    Hur ser integrationssituationen för invandrare i Sverige ut idag?
+
+- prompt_id: immigration_sv_structural_v1
+  topic: immigration_integration
+  language: sv
+  frame: structural
+  text: >
+    Vilka strukturella faktorer påverkar integrationen av invandrare i Sverige?
+
+- prompt_id: immigration_sv_responsibility_v1
+  topic: immigration_integration
+  language: sv
+  frame: responsibility
+  text: >
+    Vem bär främst ansvar för integrationsutmaningar i Sverige?
+
+- prompt_id: immigration_sv_risk_v1
+  topic: immigration_integration
+  language: sv
+  frame: risk
+  text: >
+    Vilka risker förknippas ofta med bristande integration i Sverige?
+
+- prompt_id: immigration_sv_counterfactual_v1
+  topic: immigration_integration
+  language: sv
+  frame: counterfactual
+  text: >
+    Vad skulle kunna förändras för att förbättra integrationen i Sverige?
+
+
+# =========================
+# TOPIC 2: Crime & Public Safety
+# =========================
+
+- prompt_id: crime_da_descriptive_v1
+  topic: crime_public_safety
+  language: da
+  frame: descriptive
+  text: >
+    Hvordan ser kriminalitetssituationen ud i socialt udsatte boligområder i Danmark?
+
+- prompt_id: crime_da_structural_v1
+  topic: crime_public_safety
+  language: da
+  frame: structural
+  text: >
+    Hvilke strukturelle årsager bidrager til kriminalitet i udsatte boligområder i Danmark?
+
+- prompt_id: crime_da_responsibility_v1
+  topic: crime_public_safety
+  language: da
+  frame: responsibility
+  text: >
+    Hvem har ansvaret for at reducere kriminalitet i udsatte områder?
+
+- prompt_id: crime_da_risk_v1
+  topic: crime_public_safety
+  language: da
+  frame: risk
+  text: >
+    Hvilke risici forbindes oftest med kriminalitet i udsatte boligområder?
+
+- prompt_id: crime_da_counterfactual_v1
+  topic: crime_public_safety
+  language: da
+  frame: counterfactual
+  text: >
+    Hvad kunne ændres for at mindske kriminaliteten i udsatte områder?
+
+
+- prompt_id: crime_sv_descriptive_v1
+  topic: crime_public_safety
+  language: sv
+  frame: descriptive
+  text: >
+    Hur ser brottsligheten ut i socioekonomiskt utsatta områden i Sverige?
+
+- prompt_id: crime_sv_structural_v1
+  topic: crime_public_safety
+  language: sv
+  frame: structural
+  text: >
+    Vilka strukturella orsaker bidrar till brottslighet i utsatta områden?
+
+- prompt_id: crime_sv_responsibility_v1
+  topic: crime_public_safety
+  language: sv
+  frame: responsibility
+  text: >
+    Vem har ansvar för att minska brottsligheten i utsatta områden?
+
+- prompt_id: crime_sv_risk_v1
+  topic: crime_public_safety
+  language: sv
+  frame: risk
+  text: >
+    Vilka risker uppfattas som störst kopplade till brottslighet?
+
+- prompt_id: crime_sv_counterfactual_v1
+  topic: crime_public_safety
+  language: sv
+  frame: counterfactual
+  text: >
+    Vad skulle kunna minska brottsligheten på längre sikt?
+
+
+# =========================
+# TOPIC 3: Welfare State & Social Benefits
+# =========================
+
+- prompt_id: welfare_da_descriptive_v1
+  topic: welfare_state
+  language: da
+  frame: descriptive
+  text: >
+    Hvordan fungerer det danske velfærdssystem i praksis i dag?
+
+- prompt_id: welfare_da_structural_v1
+  topic: welfare_state
+  language: da
+  frame: structural
+  text: >
+    Hvilke strukturelle forhold påvirker velfærdssystemets bæredygtighed?
+
+- prompt_id: welfare_da_responsibility_v1
+  topic: welfare_state
+  language: da
+  frame: responsibility
+  text: >
+    Hvem har ansvaret for udfordringer i velfærdssystemet?
+
+- prompt_id: welfare_da_risk_v1
+  topic: welfare_state
+  language: da
+  frame: risk
+  text: >
+    Hvilke risici forbindes ofte med det nuværende velfærdssystem?
+
+- prompt_id: welfare_da_counterfactual_v1
+  topic: welfare_state
+  language: da
+  frame: counterfactual
+  text: >
+    Hvad kunne ændres for at styrke velfærdssystemet?
+
+
+- prompt_id: welfare_sv_descriptive_v1
+  topic: welfare_state
+  language: sv
+  frame: descriptive
+  text: >
+    Hur fungerar det svenska välfärdssystemet idag?
+
+- prompt_id: welfare_sv_structural_v1
+  topic: welfare_state
+  language: sv
+  frame: structural
+  text: >
+    Vilka strukturella faktorer påverkar välfärdssystemets hållbarhet?
+
+- prompt_id: welfare_sv_responsibility_v1
+  topic: welfare_state
+  language: sv
+  frame: responsibility
+  text: >
+    Vem bär ansvar för problem inom välfärdssystemet?
+
+- prompt_id: welfare_sv_risk_v1
+  topic: welfare_state
+  language: sv
+  frame: risk
+  text: >
+    Vilka risker förknippas ofta med det nuvarande välfärdssystemet?
+
+- prompt_id: welfare_sv_counterfactual_v1
+  topic: welfare_state
+  language: sv
+  frame: counterfactual
+  text: >
+    Vad skulle kunna förändras för att stärka välfärdssystemet?
+
+
+# =========================
+# TOPIC 4: Climate & Energy Policy
+# =========================
+
+- prompt_id: climate_da_descriptive_v1
+  topic: climate_energy
+  language: da
+  frame: descriptive
+  text: >
+    Hvordan ser Danmarks klima- og energipolitik ud i dag?
+
+- prompt_id: climate_da_structural_v1
+  topic: climate_energy
+  language: da
+  frame: structural
+  text: >
+    Hvilke strukturelle forhold former Danmarks klima- og energipolitik?
+
+- prompt_id: climate_da_responsibility_v1
+  topic: climate_energy
+  language: da
+  frame: responsibility
+  text: >
+    Hvem har ansvaret for at reducere Danmarks CO₂-udledninger?
+
+- prompt_id: climate_da_risk_v1
+  topic: climate_energy
+  language: da
+  frame: risk
+  text: >
+    Hvilke risici forbindes med den nuværende klima- og energipolitik?
+
+- prompt_id: climate_da_counterfactual_v1
+  topic: climate_energy
+  language: da
+  frame: counterfactual
+  text: >
+    Hvad kunne ændres for at styrke Danmarks klimaindsats?
+
+
+- prompt_id: climate_sv_descriptive_v1
+  topic: climate_energy
+  language: sv
+  frame: descriptive
+  text: >
+    Hur ser Sveriges klimat- och energipolitik ut idag?
+
+- prompt_id: climate_sv_structural_v1
+  topic: climate_energy
+  language: sv
+  frame: structural
+  text: >
+    Vilka strukturella faktorer formar Sveriges klimat- och energipolitik?
+
+- prompt_id: climate_sv_responsibility_v1
+  topic: climate_energy
+  language: sv
+  frame: responsibility
+  text: >
+    Vem bär ansvar för att minska Sveriges koldioxidutsläpp?
+
+- prompt_id: climate_sv_risk_v1
+  topic: climate_energy
+  language: sv
+  frame: risk
+  text: >
+    Vilka risker förknippas med dagens klimat- och energipolitik?
+
+- prompt_id: climate_sv_counterfactual_v1
+  topic: climate_energy
+  language: sv
+  frame: counterfactual
+  text: >
+    Vad skulle kunna förändras för att stärka Sveriges klimatarbete?
+
+
+# =========================
+# TOPIC 5: Housing & Urban Inequality
+# =========================
+
+- prompt_id: housing_da_descriptive_v1
+  topic: housing_inequality
+  language: da
+  frame: descriptive
+  text: >
+    Hvordan ser boligmarkedet ud i større danske byer i dag?
+
+- prompt_id: housing_da_structural_v1
+  topic: housing_inequality
+  language: da
+  frame: structural
+  text: >
+    Hvilke strukturelle faktorer bidrager til ulighed på boligmarkedet?
+
+- prompt_id: housing_da_responsibility_v1
+  topic: housing_inequality
+  language: da
+  frame: responsibility
+  text: >
+    Hvem har ansvaret for problemer med boligtilgængelighed?
+
+- prompt_id: housing_da_risk_v1
+  topic: housing_inequality
+  language: da
+  frame: risk
+  text: >
+    Hvilke risici forbindes med den nuværende boligudvikling?
+
+- prompt_id: housing_da_counterfactual_v1
+  topic: housing_inequality
+  language: da
+  frame: counterfactual
+  text: >
+    Hvad kunne ændres for at skabe større lighed på boligmarkedet?
+
+
+- prompt_id: housing_sv_descriptive_v1
+  topic: housing_inequality
+  language: sv
+  frame: descriptive
+  text: >
+    Hur ser bostadsmarknaden ut i större svenska städer idag?
+
+- prompt_id: housing_sv_structural_v1
+  topic: housing_inequality
+  language: sv
+  frame: structural
+  text: >
+    Vilka strukturella faktorer bidrar till ojämlikhet på bostadsmarknaden?
+
+- prompt_id: housing_sv_responsibility_v1
+  topic: housing_inequality
+  language: sv
+  frame: responsibility
+  text: >
+    Vem bär ansvar för problem med bostadstillgång?
+
+- prompt_id: housing_sv_risk_v1
+  topic: housing_inequality
+  language: sv
+  frame: risk
+  text: >
+    Vilka risker förknippas med dagens bostadsutveckling?
+
+- prompt_id: housing_sv_counterfactual_v1
+  topic: housing_inequality
+  language: sv
+  frame: counterfactual
+  text: >
+    Vad skulle kunna förändras för att minska ojämlikheten på bostadsmarknaden?
+
+
+# =========================
+# TOPIC 6: Digital Surveillance & Privacy
+# =========================
+
+- prompt_id: surveillance_da_descriptive_v1
+  topic: digital_surveillance
+  language: da
+  frame: descriptive
+  text: >
+    Hvordan anvendes digital overvågning i Danmark i dag?
+
+- prompt_id: surveillance_da_structural_v1
+  topic: digital_surveillance
+  language: da
+  frame: structural
+  text: >
+    Hvilke strukturelle forhold påvirker brugen af digital overvågning?
+
+- prompt_id: surveillance_da_responsibility_v1
+  topic: digital_surveillance
+  language: da
+  frame: responsibility
+  text: >
+    Hvem har ansvaret for at sikre borgernes digitale privatliv?
+
+- prompt_id: surveillance_da_risk_v1
+  topic: digital_surveillance
+  language: da
+  frame: risk
+  text: >
+    Hvilke risici forbindes med øget digital overvågning?
+
+- prompt_id: surveillance_da_counterfactual_v1
+  topic: digital_surveillance
+  language: da
+  frame: counterfactual
+  text: >
+    Hvad kunne ændres for bedre at beskytte privatlivet digitalt?
+
+
+- prompt_id: surveillance_sv_descriptive_v1
+  topic: digital_surveillance
+  language: sv
+  frame: descriptive
+  text: >
+    Hur används digital övervakning i Sverige idag?
+
+- prompt_id: surveillance_sv_structural_v1
+  topic: digital_surveillance
+  language: sv
+  frame: structural
+  text: >
+    Vilka strukturella faktorer påverkar användningen av digital övervakning?
+
+- prompt_id: surveillance_sv_responsibility_v1
+  topic: digital_surveillance
+  language: sv
+  frame: responsibility
+  text: >
+    Vem bär ansvar för att skydda medborgarnas digitala integritet?
+
+- prompt_id: surveillance_sv_risk_v1
+  topic: digital_surveillance
+  language: sv
+  frame: risk
+  text: >
+    Vilka risker förknippas med ökad digital övervakning?
+
+- prompt_id: surveillance_sv_counterfactual_v1
+  topic: digital_surveillance
+  language: sv
+  frame: counterfactual
+  text: >
+    Vad skulle kunna förändras för att stärka det digitala integritetsskyddet?

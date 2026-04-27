@@ -1,0 +1,31 @@
+ollama:
+  base_url: "http://llm04.client.dm:11434"
+  endpoint: "/api/generate"
+  timeout_s: 120
+  retries: 2
+
+model:
+  name: "ministral-3:8b-instruct-2512-q8_0"
+  #name: "gemma3:12b"
+  # Optional: sent as Ollama's top-level "system" field (system prompt).
+  system: "Dit svar skal være kortere end 230 ord. Giv dit svar i en paragraf."
+  # Convenience: sets Ollama options.num_predict unless you set num_predict explicitly.
+  # This is a token limit (not characters).
+  #max_output_tokens: 256
+  options:
+    temperature: 0.7
+    top_p: 0.9
+    top_k: 40
+    num_predict: 256
+  #  seed: 100000
+
+run:
+  num_of_q_repeats: 4
+  stream: false
+  parallelism: 4
+  output_json_path: "outputs/run-<timestamp>-<model_name>.json"
+  include_registry_fields:
+    - topic
+    - language
+    - frame
+

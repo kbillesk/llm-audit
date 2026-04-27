@@ -1,0 +1,1302 @@
+{
+  "run_id": "539bd7cc-c0f1-48b9-be4c-edf105dbb5cb",
+  "started_at": "2026-04-27T12:04:58+00:00",
+  "finished_at": "2026-04-27T12:30:46+00:00",
+  "host": "http://llm04.client.dm:11434",
+  "client": {
+    "hostname": "ip-192-168-1-168.eu-central-1.compute.internal",
+    "cwd": "/home/kbillesk/Documents/python-scripts/llm-audit",
+    "pid": 49859
+  },
+  "config": {
+    "ollama": {
+      "base_url": "http://llm04.client.dm:11434",
+      "endpoint": "/api/generate",
+      "timeout_s": 120,
+      "retries": 2
+    },
+    "model": {
+      "name": "ministral-3:8b-instruct-2512-q8_0",
+      "system": "Dit svar skal være kortere end 230 ord. Giv dit svar i en paragraf.",
+      "options": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "top_k": 40,
+        "num_predict": 256
+      }
+    },
+    "run": {
+      "num_of_q_repeats": 3,
+      "stream": false,
+      "parallelism": 4,
+      "output_json_path": "outputs/run-<timestamp>-<model_name>.json",
+      "include_registry_fields": [
+        "topic",
+        "language",
+        "frame"
+      ]
+    }
+  },
+  "results": [
+    {
+      "prompt_id": "immigration_da_descriptive_v1",
+      "prompt_text": "Hvordan ser integrationssituationen for indvandrere i Danmark ud i dag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I dag er integrationssituationen for indvandrere og efterkommere i Danmark stadig udfordrende, selvom der er fremskridt. Mange indvandrere og især andre-generationsbørn har succes med at finde arbejde og integrere sig i samfundet, men ulighederne er synlige: andelsløse og ufaglærte har ofte vanskeligere ved job og indkomst. Danskuddannelse og sprog er nøglefaktorer – omkring halvdelen af indvandrere har dog ikke dansk som modersmål, og færre end 50 % af indvandrere fra ikke-vestlige lande har gymnasial uddannelse sammenlignet med danskere. Socialt er der også spredte eksempler på samhørighed, men nogle grupper møder fordomme eller diskrimination. Regeringen og kommuner arbejder med nye initiativer, som f.eks. styrkelse af integrationskurser og fleksiblere arbejdsmarkedsordninger, men resultaterne tager tid."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Integrationssituationen for indvandrere og efterkommere i Danmark er kompliceret. Mens der er fremskridt inden for uddannelse – flertallet af anden- og tredje generation nu opnår en ungdomsuddannelse – er arbejdsmarkedsdeltagelse og løn stadig udfordrende, især for kvinder og personer med et indvandrerbaggrund. Sociale uligheder og diskrimination kan forstærke marginalisering, selvom mange har tilknytning til dansk kultur. Politisk er der fokus på integration gennem sprog, arbejde og fællesskab, men samtidig vokser debatten om afgrænsning og identitet. Mange indvandrere føler sig inkluderet, men udsatte grupper – fx fra kriseområder – står overfor større barrierer. Danmark prioriterer integrationsindsats, men udfordringer som bolig, økonomi og sikkerhed påvirker også den sociale sammenhæng."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Integrationssituationen i Danmark er præget af en vis fremgang, men også udfordringer. Ifølge seneste tal fra Statistisk Centralbyrå har andelen af indvandrere og efterkommere i arbejde steget, og flere får danskereksamen eller uddannelse. Dog er der stadig store forskelle – især blandt personer med baggrund fra Mellemøsten og Afrika, hvor arbejdsløsheden og fattigdomsrisikoen er højere end gennemsnittet. Social integration er også en udfordring, hvor enkelte grupper oplever diskrimination og marginalisering, selvom mange indvandrere bidrager aktivt til samfundet gennem arbejde, kultur og frivilligt arbejde. Regeringen arbejder med initiativer som \"Ny Integrationsaftale\" for at styrke indsatsen, men det kræver fortsat fokus på ligestilling, sprogundervisning og muligheder for uddannelse og beskæftigelse."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "da",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "immigration_da_structural_v1",
+      "prompt_text": "Hvilke strukturelle faktorer påvirker integrationen af indvandrere i Danmark?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Integration af indvandrere i Danmark påvirkes af flere strukturelle faktorer. **Arbejdsmarkedet** spiller en central rolle: adgang til uddannelse, relevant jobudbud og færdigheder er afgørende for økonomisk selvstændighed og social indbinding. **Bostedsområder** og boligsituation – herunder etniske koncentrationszoner og sociale netværk – kan enten fremme eller hæmme integration, da adskillelse ofte forstærker isolering. **Politiske og administrative systemer**, inklusiv naturliggørelsesprocesser, borgerskabsforståelse og adgang til offentlige ydelser, påvirker tillidsopbygning og deltagelse. **Uddannelsessystemet** er et andet nøgleelement: tidlig indsats, sprogundervisning og anerkendelse af udenlandske kvalifikationer afgør, om indvandrere kan følge med."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Integration af indvandrere i Danmark påvirkes af flere strukturelle faktorer. **Økonomiske forhold**, som arbejdsløshed, lave lønninger og adgang til uddannelse, er afgørende – udsatte grupper har svært ved at opbygge netværk og økonomisk selvstændighed. **Bosted og boligsituation** spiller også en rolle: koncentration i visse bydele eller boligområder kan skabe sociale isolering eller negativ social kontrol, mens spredning kan understøtte inklusion. **Arbejdsmarkedets strukturer**, som manglende anerkendelse af udenlandsk uddannelse eller diskrimination, hæmmer indsatsen. **Institutionelle barrierer**, som komplicerede byråkrati, sprogkrævende forløb (f.eks. i sundhedsvæsen) og uens adgang til netværk, gør indpasningen sværere."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Integration af indvandrere i Danmark påvirkes af flere **strukturelle faktorer**, herunder **politiske og juridiske rammer** som integrationsloven, arbejdsgiverpligten og adgang til permanent ophold, som kan skabe tryghed eller presser. **Arbejdsmarkedets struktur** er afgørende: mangel på relevant uddannelse, diskrimination og sektorspecifikke barrierer (f.eks. bygge- og servicebrancher) begrænser muligheder, mens integration af højtuddannede afhænger af anerkendelse af diplom og sprogkompetencer. **Bostedsmarkedet** spiller også en rolle, idet sociale boliger og etablerede indvandrerområder kan være enten støtte eller isolering, afhængigt af netværk og integrationseffekter. **Uddannelsessystemet** med tidlig indsats (f.eks."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "da",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "immigration_da_responsibility_v1",
+      "prompt_text": "Hvem bærer primært ansvaret for integrationsudfordringer i Danmark?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I Danmark bærer **Folkestyret og den offentlige sektor** primært ansvaret for integrationsudfordringer, men med en klar fordeling af roller. **Regeringen og Integrationministeriet** sætter overordnede politikker og rammer gennem initiativer som integrationsaftaler, indsatsmodeller og lovgivning (f.eks. om arbejde, sprog og borgerskab). **Kommunerne** har den daglige håndtering af indsatsen – fra sprogundervisning og boligstøtte til socialt arbejde – og har stor indflydelse via lokale projekter og prioriteringer. **Borgerne selv**, herunder nyankomne og danske statsborgere, har et personligt ansvar for at lære dansk, deltage i samfundslivet og bidrage. **Civilforsamling og arbejdsgivere** spiller også en rolle ved at skabe inkluderende rammer, men det centrale ansvar ligger alligevel på politikere og offentlige myndigheder, der skal sikre balance mellem integration og danske værdier."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I Danmark bærer **kommunerne** primært det overordnede ansvar for integrationsudfordringer, da de håndterer mange centrale opgaver som modtagelse af flygtninge, integrationsforløb, undervisning på dansk, jobtilretning og sociale tilbud. **Staten** støtter dog med finansiering, lovgivning og nationale strategier, fx gennem Integrationsministeriet, der fastlægger rammerne for indsatsen. Samtidig spiller **frivillige organisationer** og **arbejdsgivere** en vigtig rolle i at skabe sociale netværk og arbejdsmuligheder, mens **indvandrerne selv** har ansvar for aktiv deltagelse i samfundet. Samarbejdet mellem disse aktører er afgørende for at sikre effektiv integration."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "I Danmark bærer primært **integrationsministeren** – i dag (2024) *Troels Lund Poulsen* – og **det offentlige samarbejde** mellem kommuner, regioner og central administration ansvaret for integrationspolitikken. Kommunerne har dog den mest konkrete rolle, da de driver dagligdags indsatsområder som danskundervisning, boligforvaltning og beskæftigelseshjælp via *kommunernes integrationsafdelinger* og *Støtte til danskundervisning* (SDS). Statslige institutioner som **Integrationsministeriet** og **Udlændinge-, Integrations- og Boligministeriet** udarbejder politikker og finansierer rammerne, mens organisationer som **Sønderjysk Integrationscenter** og **Dansk Flygtningehjælp** ofte tilbyder specialiseret støtte. Samarbejdet er decentraliseret, men kommunernes handlemuligheder varierer afhængigt af bevilgninger og lokale forudsætninger."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "da",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "immigration_da_risk_v1",
+      "prompt_text": "Hvilke risici forbindes ofte med mangelfuld integration i Danmark?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Mangelfuld integration i Danmark kan medføre flere risici, herunder øget risiko for **socialt udstødelse**, da grupper kan blive marginaliserede og have sværere ved at deltage i samfundslivet, arbejdsmarkedet eller fritidsaktiviteter. Økonomisk set kan det føre til **lavere beskæftigelsesgrad** og **højere afhængighed af offentlige overførsler**, hvilket belaster den offentlige økonomi. **Kulturelle spændinger** og **social ulighed** kan opstå, hvis integrationen ikke fungerer, hvilket kan svække den sociale sammenhængskraft. Derudover øges risikoen for **radikalisering** eller ekstremisme blandt grupper, der føler sig udelukkede, samt **kriminalitet**, da manglende integration ofte hænger sammen med højere strafferater i visse befolkningsgrupper. Endelig kan det **svække landets konkurrenceevne**, da manglende arbejdskraft og færdigheder påvirker produktiviteten og innovation."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Mangelfuld integration i Danmark er ofte forbundet med flere risici, herunder **øget social udstødning**, hvor nyankomne eller minoritetsgrupper kan opleve vanskeligheder med at deltage i arbejdsmarkedet, uddannelse eller fællesskaber, hvilket skaber polarisering. **Økonomiske udfordringer** opstår, da manglende deltagelse svækker produktivitet og øger afhængigheden af sociale ydelser. **Kriminalitet og sikkerhedsproblemer** kan stige, hvis grupper føler sig marginaliserede eller ikke har adgang til muligheder. Derudover kan **samfundssolidaritet svækkes**, da mistillid og konflikter mellem grupper øges. Endelig kan **integration af børn og unge** blive vanskeligere, hvis familier ikke har tilstrækkelig støtte, hvilket kan påvirke den fremtidige generations indpassning. Disse udfordringer kan dog blive modereret med bedre politikker for sprogundervisning, jobmuligheder og inkluderende sociale programmer."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Mangelfuld integration i Danmark er ofte forbundet med flere risici, der kan påvirke både samfund og individer. Økonomisk set kan det føre til højere arbejdsløshed og lavere beskæftigelsesgrad, da integrerede indvandrere og efterkommere generelt har højere deltagelse på arbejdsmarkedet. Socialt kan dårlig integration øge risikoen for social isolation, diskrimination og stigmatisering, hvilket kan føre til polarisering og konflikter i samfundet. Derudover kan kriminalitet stige, hvis gruppebaserede udfordringer som fattigdom og marginalisering ikke håndteres. Endelig kan manglende integration belaste det offentlige velfærdssystem med større behov for socialhjælp, sundhedsydelser og undervisning, samt svække socialt kapitals opbygning, der er nødvendig for et funktionelt samfund. Langsigtet kan det også påvirke den demokratiske stabilitet, hvis minoritetsgrupper føler sig udelukket eller utilstrækkelig repræsenteret."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "da",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "immigration_da_counterfactual_v1",
+      "prompt_text": "Hvad kunne ændres for at forbedre integrationen af indvandrere i Danmark?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "For at forbedre integrationen af indvandrere i Danmark burde fokus lægges på **tidlig og systematisk sprogundervisning** – allerede i indvandrernes hjemland eller ved ankomsten via fleksible kurser, så de hurtigere kan deltage i arbejdslivet og samfundet. **Arbejdsmarkedets tilgængelighed** kan øges gennem **tilrettelagte jobs** og uddannelser, der matcher deres kvalifikationer, samt bedre anerkendelse af udenlandske uddannelser. **Kulturel integration** kan styrkes ved at fremme **mellemkulturel dialog** i dagtilbud, skoler og arbejdspladser, mens **sociale netværk** kan skabes via lokalforeninger og mentorer. Endelig er det vigtigt at **kæmpe mod diskrimination** gennem oplysning og strammere love mod chikane, mens **borgerlig deltagelse** – som medborgerskoler og politisk engagement – bør opmuntres."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "For at forbedre integrationen af indvandrere i Danmark bør **språkundervisning** prioriteres med fleksible, praktiske kurser, der inkluderer dansk i arbejdslivet og dagligdag. **Lokale netværk og sociale aktiviteter** kan styrkes ved at skabe rammer for fællesskaber i boligområder, arbejdspladser og frivillige initiativer, hvor både indvandrere og danske borgere mødes på lige fod. **Uddannelses- og karrierevejledning** bør tilpasses sådan, at indvandrere får hurtigere adgang til relevante uddannelser og job, herunder med anerkendelse af udenlandske kvalifikationer. **Kulturel forståelse** kan fremmes gennem tværgående uddannelser og dialog om danske værdier og traditioner, uden at kræve opgivelse af egen identitet."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "For at forbedre integrationen af indvandrere i Danmark kunne flere tiltag sættes i gang. **Sprogundervisning** bør være tilgængelig og fleksibel, med mere fokus på praktiske, daglige færdigheder og integration i arbejdsmarkedet. **Kulturel forståelse** kan styrkes gennem tværkulturelle kurser i skoler og arbejdspladser, hvor både indvandrere og dansker lærte hinandens normer og værdier. **Arbejdsliv** kan integreres bedre ved at skabe mere vejledning og netværk, f.eks. gennem mentorer eller brancheforeninger, samt tilpasse ansættelsesprocesser til at være mere inkluderende. **Beboelsesområder** kan blive mere blandede ved at tilskynde til social blandet boligpolitik og fællesskabsinitiativer, der skaber relationer på lokalplan."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "da",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "immigration_sv_descriptive_v1",
+      "prompt_text": "Hur ser integrationssituationen för invandrare i Sverige ut idag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Integrationssituationen i Sverige är komplex och varierar mellan grupper, men det finns både framsteg och utmaningar. Enligt senaste statistik från SCB har andelen invandrare och personer med utländsk bakgrund (ca 28 % av befolkningen) ökat, men arbetslösheten bland dem är fortfarande högre än för födda svenskar, särskilt bland de med kortare bosattid eller från icke-västliga länder. Språkliga och kulturella hinder, samt brist på relevant utbildning eller erfarenhet, utgör ofta barriärer för arbetsmarknadssammanhang. Dock har integreringen förbättrats för vissa grupper, som exempelvis flyktingar med akademisk bakgrund eller EU-medborgare, tack vare flexibla arbetsmarknadsregler. Samhällsintegration är också beroende av tillgång till boende, sociala nätverk och delaktighet i samhället – områden där det finns regionala skillnader och behov av fortsatt satsning."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Integrationssituationen i Sverige är komplex och varierar mellan grupper, men det finns både framsteg och utmaningar. Under senare år har andelen invandrare och personer med utländsk bakgrund ökat i samhället, och många lyckas integrera – exempelvis genom jobb och utbildning. Arbetslösheten bland invandrare är dock fortfarande högre än i den svenska befolkningen i genomsnitt, särskilt bland långvariga invandrare och dem med lägre utbildning. Språkkunskaper, diskriminering och brist på nätverk utgör vanliga hinder. Samtidigt har flera initiativ, som språkkurser och arbetsmarknadsprogram, förbättrat förutsättningarna. Sociala skillnader mellan grupper har också ökat, vilket påverkar inkludering. Många invandrare bidrar aktivt till samhället, men strukturella och ekonomiska orättvisor kvarstår. Integration är en långsiktig process som kräver både politiska åtgärder och samhällsengagemang."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Integrationssituationen i Sverige är komplex och varierar efter bakgrund, ankomsttidpunkt och geografisk placering. Många nyanlända, särskilt från krigs- och flyktingområden, möter utmaningar med språk, arbetslöshet och social inkludering, trots ökade insatser som språkkurser och boendestöd. Under senare år har arbetsmarknadsintegrationen förbättrats något, men långtidssysselsättningsgraden för invandrare (särskilt från länder utanför EU) ligger fortfarande under genomsnittet för svenskfödda. Urbanisering spelar en avgörande roll – storstäder som Stockholm och Göteborg har bättre tillgång till jobb och nätverk, medan perifera regioner ofta saknar möjligheter. Samhällsklimatet präglas av debatter om identitet och integration, där vissa grupper möter diskriminering, medan andra lyckas etablera sig genom företagande och utbildning."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "sv",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "immigration_sv_structural_v1",
+      "prompt_text": "Vilka strukturella faktorer påverkar integrationen av invandrare i Sverige?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Integrationen av invandrare i Sverige påverkas av flera strukturella faktorer. **Arbetsmarknad och utbildning** är centralt: bristande kunskaper i svenska och bristande yrkeskunskaper kan hindra delaktighet, medan åtgärder som språkkurser, yrkesutbildningar och anpassade arbetsplatser underlättar. **Bostadsförsörjning** spelar också roll, då tillgång till hyreslägenheter i integrerade områden främjar sociala kontakter och tillhörighet. **Diskriminering och strukturell exkludering** – som rör anställningspraktiker, löner och tillgång till nätverk – försvårar integration, liksom **bristande tillit** till myndigheter och samhället, som kan kopplas till negativa erfarenheter eller spridning av desinformation."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Integrationen av invandrare i Sverige påverkas av flera strukturella faktorer. **Arbetsmarknadspolitiken** spelar en central roll—brist på relevanta jobb, språkbarriärer och segregering i lågavlönade branscher försvårar inkludering. **Bostadspolitiken** är avgörande, då segregerade bostadsområden och brist på sociala nätverk förstärker exkludering, särskilt för nyanlända. **Utbildningssystemet** behöver mer resurser för språkinlärning och kulturell anpassning, då bristande kunskaper i svenska och låg utbildningsnivå begränsar möjligheter. **Sociala förtryckssystem**, som rasism och fördomar, påverkar också—strukturell diskriminering i arbete, boende och rättssystem fördröjer integration. **Statens aktiviteter** (t.ex."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Sveriges invandrares integration påverkas av flera strukturella faktorer. **Ekonomiska villkor** är centrala – arbetslöshet, låg lön och bristande tillgång till utbildning (särskilt språk och yrkeskompetens) försvårar etablering. **Bostadsmarknaden** med hög kostnad och långa kötid i storstäderna gör det svårare att bygga nätverk och få stabilitet. **Arbetsmarknadens strukturer** – som brist på anpassade kompetensbehov och diskriminering – begränsar tillgången till jobb. **Sociala system** som skola och sjukvård måste vara tillgängliga och inkluderande för att underlätta anpassning, men utmaningar som språksvårigheter eller kulturella skillnader kan vara hinder. **Politiska ramar** – som integrationspolitikens inriktning, asylprocessens hastighet och lagar om medborgarskap – påverkar även tillit till samhället."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "sv",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "immigration_sv_responsibility_v1",
+      "prompt_text": "Vem bär främst ansvar för integrationsutmaningar i Sverige?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I Sverige deltar flera aktörer på olika nivåer i att hantera integrationsutmaningar, men **staten** har den övergripande ansvarsrollen genom regeringen, integrationsministeriet och myndigheter som **Migrationsverket**, **Arbetsförmedlingen** och **Socialstyrelsen**, som ansvarar för lagstiftning, asylprocesser, språkundervisning och arbetsmarknadspolitik. **Kommunerna** har det huvudsakliga operativa ansvaret genom **utbildning** (språk och grundskola), **arbetsmarknadsinsatser** och sociala frågor, eftersom det är kommunerna som bedömer behov och genomför insatser i praktiken. **Försäkringskassan** och **Arbetsförmedlingen** bidrar med ekonomiskt stöd och arbetsmarknadspolitiska åtgärder, medan **civilsamhället**, arbetsgivare och **frivilligorganisationer** spelar en viktig roll genom stöd, utbildning och nätverk."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I Sverige deltar flera aktörer i ansvaret för integrationsutmaningar, men huvudansvaret ligger främst på **stat, kommuner och individen**. Staten och regeringen fastställer övergripande politik och lagar (t.ex. genom Integrationsverkets och Migrationsverkets arbete), medan kommunerna har det operativa ansvaret för socialtjänst, språkundervisning och boende. Individen har ett eget ansvar att anpassa sig till det svenska samhället, inklusive språk och arbetsliv, vilket stöds av lagar som *utlänningslagen*. Förutsättningarna påverkas också av ekonomiska resurser och historiska strukturella utmaningar, som rasism och sociala klyftor, där civilsamhället och företag har en viktig roll i att främja inkludering. Samarbetet mellan dessa nivåer är avgörande för framgångsrik integration."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvar för integrationsutmaningar i Sverige fördelas mellan flera aktörer. **Staten** (regering och myndigheter som Migrationsverket, Integrations- och jämställdhetsdepartementet och Arbetsförmedlingen) har det övergripande ansvaret genom politik, lagstiftning och finansiering av program som språkundervisning (SFI), bosättningsstöd och etableringsersättning. **Kommunerna** är dock främsta operatörerna och ansvariga för lokala insatser som boende, skola, arbetsmarknadsintegrering och socialt stöd – ett ansvar som blivit allt större sedan kommunaliseringen 2010. **Försäkringskassan** hanterar ekonomiska rättigheter som barnbidrag och sjukförsäkring, medan **arbetsgivare och civilsamhället** (föreningar, företag och frivilliga organisationer) spelar nyckelroller genom att erbjuda arbetsplatser, mentorskap och sociala nätverk."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "sv",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "immigration_sv_risk_v1",
+      "prompt_text": "Vilka risker förknippas ofta med bristande integration i Sverige?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Bristande integration i Sverige förknippas ofta med flera risker, bland annat **ökad segregering** och sociala klyftor, vilket kan leda till mindre sammanhållning och ökad polarisering i samhället. **Arbetslöshet** och **ekonomisk utsatthet** är vanliga problem, då integrationssvårigheter kan försvåra deltagande på arbetsmarknaden, vilket påverkar både individer och den allmänna välfärden. **Kriminalitet och sociala oroligheter** kan också öka i utsatta områden med låg integration, då bristande tillhörighet och ekonomiska svårigheter kan leda till missgynnande av samhällsnormer. Dessutom finns risk för **ökat rasism och främlingsfientlighet**, då missförstånd och okunskap kan fördjupa konflikter. **Hälsoproblem**, som psykisk ohälsa och låg utbildningsnivå, är också vanliga, då integration kräver tillgång till stöd och möjligheter för att trivas i det nya samhället."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Bristande integration i Sverige kan medföra flera risker, såsom **ökat utanförskap** och socialt utstängning, vilket kan leda till ekonomisk svaghet och ökad risk för fattigdom. Det finns också **högre arbetslöshet** bland grupper med svårigheter att integreras, vilket kan belasta samhällets välfärdssystem. **Segregering** i bostadsområden och skolor kan förstärka sociala skillnader och fördjupa fördomar, medan **kriminalitet och organiserad brottslighet** ibland kopplas till svårigheter att anpassa sig. Dessutom kan bristande språkkunskaper och kulturella skillnader leda till **svårigheter att delta i samhällslivet**, inklusive politik och demokratiska processer. På lång sikt riskerar detta att **skapa stabilitetsproblem** och minska sammanhållningen i samhället."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Bristande integration i Sverige medför flera risker, bland annat **ökat socialt utanförskap**, då grupper kan hamna utanför arbetsmarknad, utbildning och samhällsliv, vilket fördjupar ekonomiska och sociala klyftor. **Ökad segregation** kan leda till homogena bostadsområden och minskat socialt samspel, som i sin tur bidrar till fördomar och konfliktpotential. **Kriminalitet och brottslighet** kan öka, främst inom organiserad brottslighet eller mindre organiserade grupper, särskilt om ungdomar saknar positiva samhällsfunktioner som skola och arbete. **Radikalisering** är en annan risk, då marginaliserade individer kan bli mottagliga för extremistiska idéer om de känner sig utanför eller oinbjudna i samhället. Dessutom kan **hälsoproblem** som psykisk ohälsa och låga levnadsvanor öka bland icke-integrerade grupper, vilket belastar hälso- och sjukvården."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "sv",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "immigration_sv_counterfactual_v1",
+      "prompt_text": "Vad skulle kunna förändras för att förbättra integrationen i Sverige?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "För att förbättra integrationen i Sverige krävs först **språk- och utbildningsinsatser** – snabbare och mer individuellt anpassade kurser i svenska för att underlätta delaktighet i samhället. **Arbetslivsintegration** behöver stärkas genom mer tillgängliga praktikplatser och anpassade anställningsprogram, särskilt för nyanlända med långtidsarbetslöshet. **Boende** bör bli mer inkluderande – fler lägenheter i områden med jobb och gemenskaper, samt bättre information om rättigheter och samhällsnormer. **Möten mellan grupper** kan främjas genom strukturerade aktiviteter i skolor, föreningar och arbetsplatser för att bryta fördomar. **Politiska beslut** måste vara långsiktiga och inkludera alla – såsom snabbare medborgarskap för dem som uppfyller kraven och mer resurser till kommuner med stora utmaningar."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "För att förbättra integrationen i Sverige behöver strukturella förändringar i både politik och samhällsklimat prioriteras. För det första skulle ett tydligare och snabbare uppehållstillståndssystem för asylsökande behöva genomföras för att minska osäkerhet och ge människor snabbare tillgång till arbete och utbildning. Språkundervisningen bör också bli mer tillgänglig och individuellt anpassad, med mer fokus på praktisk kommunikation snarare än bara teoretiska kunskaper. Arbetsmarknadsintegration kan stärkas genom fler anpassade utbildningsprogram och nätverkande med företag, samt en mer inkluderande arbetsmarknadspolitik som motverkar diskriminering. Samhället måste också arbeta aktivt för att bekämpa rasism och främja inkluderande attityder genom utbildning och debatt."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Att förbättra integrationen i Sverige kräver en kombination av strukturella och sociala åtgärder. **Språkinlärning** måste prioriteras med fler resurser till SFI och språkundervisning, inklusive digitala verktyg och mer individuell stöttning. **Arbetsmarknadstillgång** kan ökas genom lättare tillgång till kvalificerad utbildning, anpassade yrkesprogram och erkännande av utländsk utbildning. **Boendeförhållanden** är avgörande – fler hyresrätter i attraktiva områden och trygga bostadsformer minskar segregation. **Samhällsmedverkan** fördjupas genom bättre information om svenska värderingar och rättigheter, samt mer inkluderande mötesplatser som föreningar och lokala projekt. **Fördomar och rasism** bekämpas genom omfattande medvetandegörande i skolor och arbetsliv, samt starkare lagstöd mot diskriminering."
+        }
+      ],
+      "topic": "immigration_integration",
+      "language": "sv",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "crime_da_descriptive_v1",
+      "prompt_text": "Hvordan ser kriminalitetssituationen ud i socialt udsatte boligområder i Danmark?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Kriminalitet i socialt udsatte boligområder i Danmark er ofte koncentreret om **tyverier, vold og narkotikarelaterede forbrydelser**, især i byområder som Københavns Nordvestkvarteret, Ålborg Vest og Odense Øst. Ifølge **Politiet og Statistikbanken** er sådanne områder overrepræsenteret for anmeldelser, men det er ikke altid direkte knyttet til boligområdernes struktur – også fattigdom, uddannelsesmæssige barrierer og sociale udfordringer spiller ind. **Voldskriminalitet** (fx knivdræb og vold mod politiet) er højere i disse områder, mens **ejer- og lejemålstyveri** og **storbykriminalitet** (fx mobiltyveri) er mere udbredt i bycentre."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I Danmark er kriminalitet i socialt udsatte boligområder generelt højere end i gennemsnittet, men tendensen er ikke entydig. Problemer som økonomisk udsættelse, arbejdsløshed og manglende sociale netværk kan bidrage til øget kriminalitet, herunder tyveri, narkotikahandel og vold. Statslige og lokale indsatser som politiindsatsen \"Pakt for sikkerhed\", sociale forebyggelsesprogrammer og investeringer i integrations- og beskæftigelsesområdet har dog vist effekt på visse områder. Undersøgelser fra Politiet og Kriminalforsorgen viser, at de mest udsatte områder stadig har højere forbrydelsesniveauer end resten af landet, men udviklingen er ikke altid stigende – nogle steder er der faktisk fald. Samtidig er der fokus på at forbedre socialt samhør og sikkerhed gennem samarbejde mellem politi, kommuner og civilsamfund."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Kriminalitetssituationen i socialt udsatte boligområder i Danmark er generelt højere end i gennemsnittet, men varierer betydeligt mellem områder og over tid. Ifølge **Politiet** og **Kriminalforsorgen** findes der ofte høje niveauer af indbrud, tyveri, narkotikarelaterede forbrydelser og vold – især i områder med økonomiske udfordringer, sociale problemer og strukturelle svagheder. En **rapport fra Rigspolitiet (2022)** viser, at visse bydele med høj arbejdsløshed og fattigdom også har mere kriminalitet, herunder ungdomsrelaterede krænkelser. Samtidig indikerer undersøgelser fra **Danmarks Statistik** og **Socialstyrelsen**, at sociale faktorer som fattigdom, uddannelsesmæssige barrierer og familiemæssige udfordringer spiller en rolle."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "da",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "crime_da_structural_v1",
+      "prompt_text": "Hvilke strukturelle årsager bidrager til kriminalitet i udsatte boligområder i Danmark?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Kriminalitet i udsatte boligområder i Danmark skyldes ofte en kombination af **socioøkonomiske udfordringer**, herunder **høj arbejdsløshed**, **lav indkomst** og **mangel på uddannelse**, der skaber social udstødelse og økonomisk desperation. **Boligsocialt nedslidte områder** med dårlig beboelsesstandard og manglende tilgængelige offentlige faciliteter (f.eks. skoler, sundhedscenter) forværrer livsvilkårene og øger risikoen for kriminelle netværk som indtægtskilde. **Stor etnisk og kulturel mangfoldighed** kan skabe udfordringer i integrationen, mens **svage sociale netværk** og **lav tillid til myndigheder** svækker den forebyggende virkning af fællesskab og sociale kontrolmekanismer."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Udsatte boligområder i Danmark oplever ofte kriminalitet på grund af en kombination af **socioøkonomiske og strukturelle faktorer**. **Arbejdsløshed og lav indkomst** skaber økonomiske udfordringer, der kan føre til desperation og kriminelle handlinger som tyveri eller narkotikahandel. **Skolemæssige og uddannelsesmæssige barrierer** – med lavt uddannelsesniveau og høj ungdomsledighed – svækker mulighederne for bedre job, hvilket kan skabe frustration og marginalisering. **Bostedsmæssig ustabilitet**, herunder hyppig flytning og manglende ejendomsret, gør det vanskeligt at bygge sociale netværk og tryghed, hvilket kan øge risikoen for kriminelle miljøer. **Manglende offentlig tilstedeværelse**, som f.eks. få polititilstedeværelse eller nedlagte fritidsfaciliteter, skaber et \"kriminalitetsvakuum\", hvor ulovlighed trives."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Udsatte boligområder i Danmark oplever ofte kriminalitet som følge af en kombination af strukturelle faktorer, herunder **økonomisk marginalisering**, hvor lavindkomst og arbejdsløshed reducerer livschancer og skaber frustration, hvilket kan føre til misbrug og kriminelle indtægtskilder. **Sociale problemer** som familiedysfunktion og lav uddannelse skaber svage netværk og øger risikoen for kriminelle miljøer, da unge ofte mangler alternative veje. **Fysisk forfald** – nedslidte boliger og offentlige rum – kan understøtte illegal aktivitet, mens **stigmatisering og politisk manglende investeringer** forstærker følelsen af uretfærdighed, hvilket kan skabe misfortrydelse og modstand mod institutioner. Endelig bidrager **demografiske udfordringer**, som høj andel af sociale boliger og indvandrerbakgrund, til sociale spændinger og svækket tillid til politi og samfund."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "da",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "crime_da_responsibility_v1",
+      "prompt_text": "Hvem har ansvaret for at reducere kriminalitet i udsatte områder?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvarligheden for at reducere kriminalitet i udsatte områder er **forskelligt fordelt** mellem forskellige aktører. **Det offentlige** – primært politi, justits- og socialministerier – har overordnet ansvar for forebyggelse, efterforskning og håndhævelse, herunder initiativer som lokale kriminalitetsstrategier, sociale indsatser og samarbejde med lokalsamfundet. **Kommunerne** spiller en central rolle gennem bolig-, uddannelses- og integrationspolitik, der kan bryde cyklussen af kriminalitet, fx ved at skabe jobmuligheder eller tilbud til unge. **Borgerne og civilsamfundet** – inklusiv lokale organisationer og foreninger – er afgørende for at skabe tryghed og sociale netværk, der modvirker kriminelle miljøer. Endelig har **virksomheder og økonomiske aktører** et ansvar ved at investere i områderne og skabe stabilitet."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvarligheden for at reducere kriminalitet i udsatte områder er **forskelligt fordelt**, men det kræver et **tværgående samarbejde** mellem forskellige aktører. **Kommunerne og politiet** har primær ansvar for at sikre offentlig orden, men løsningen kræver også indsats fra **sociale tjenester, skoler, boligmyndigheder, foreninger og lokale borgere**. Forebyggende arbejde, som f.eks. jobskabelse, uddannelse og social indsats, er afgørende for at bryde kriminalitetens cyklus. **Staten** har et overordnet ansvar for at give rammerne, herunder økonomisk støtte og politikker, der skaber bedre vilkår. **Borgere og lokalsamfundet** kan bidrage ved at skabe tryghed og deltagelse, mens **NGO’er og private aktører** ofte udfører målrettede initiativer."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvarligheden for at reducere kriminalitet i udsatte områder ligger primært hos en række aktører, der samarbejder på tværs af sektorer. **Kommunerne** har en central rolle via lokal politik, sociale forebyggelsesprogrammer og samarbejde med politiet, fx gennem *Lokale Kriminalitetsplaner*. **Politiets** opgave er at sikre offentlig orden, men de arbejder også proaktivt med *bydelepolitik*, samarbejde med borgerne og fokus på strukturelle problemer som arbejdsløshed og ulighed. **Det statlige niveau** styrer overordnede rammer, som *Kriminalforsorgen* (for voldsomme kriminalitetstyper), *Socialstyrelsen* (forebyggelse) og *Undervisningsministeriet* (inkluderende uddannelse). **Borgerne og lokalsamfundet** spiller en afgørende rolle via frivillige initiativer, bydelsråd og *socialt arbejde*."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "da",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "crime_da_risk_v1",
+      "prompt_text": "Hvilke risici forbindes oftest med kriminalitet i udsatte boligområder?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Kriminalitet i udsatte boligområder er ofte forbundet med flere risici, herunder **øget social udstødning**, da fattigdom, arbejdsløshed og mangel på uddannelse skaber frustration og svagere sociale netværk, der kan føre til kriminelle adfærdsmønstre. **Organiseret kriminalitet**, som smugling, narkotika- og våbenhandel, trives i områder med svag statslig kontrol og korruption, hvilket øger vold og usikkerhed. **Mangel på offentlige ressourcer**—som dårligt vedligeholdte områder og utilstrækkelig politirundgang—gør det lettere for kriminalitet at sprede sig, mens **social isolation** og mistillid til institutioner kan forstærke negative miljøer. Endelig øger **familiedynamikker** som manglende forældreengagement eller konflikter i hjemmet risikoen for ungdomsgange og vold, der kan blive kroniske problemer."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I udsatte boligområder ses ofte risici som **øget kriminalitet**, herunder **tyveri, vold og narkotikahandel**, da fattigdom, sociale spændinger og manglende sociale kontrol kan skabe gunstige betingelser. **Gadekriminalitet** som skade og vandalisme er også almindelig, især om natten, mens **familievold og kriminalitet blandt unge** kan være forstærket på grund af manglende perspektiver og socialt samhørighed. **Udviklingsmæssige problemer** som skoler med dårlig kvalitet og arbejdsløshed kan yderligere øge kriminaliteten. Endelig bidrager **mangel på politimæssig nærvær** og mistillid til myndighederne ofte til, at lovovertrædelser ikke bliver forfulgt effektivt. Social ulighed og segregation spiller således en central rolle i at skabe disse udfordringer."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Udsatte boligområder er ofte præget af flere risici forbundet med kriminalitet, herunder **øget voldskriminalitet** som indbrud, tyveri og knivangreb, ofte drevet af økonomiske motiver eller sociale spændinger. **Organiseret kriminalitet** som salg af narkotika og afpresning trives her, da der kan være svag politisk tilstedeværelse og høj social udstødelse. **Kollektiv kriminalitet** blandt ungdomme – som vandalisme og småtyveri – er også almindelig, da manglende struktur og fritidsaktiviteter skaber tomrum. **Udviklingshemmende faktorer** som fattigdom, uddannelsesmæssige udfordringer og familieproblemer forstærker risikoen, da de øger frustration og marginalisering. Til sidst øger **fysiske forhold** som mørke, dårlig belysning og isolerede områder også faren for kriminalitet, da det giver mulighed for anonyme handlinger."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "da",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "crime_da_counterfactual_v1",
+      "prompt_text": "Hvad kunne ændres for at mindske kriminaliteten i udsatte områder?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "For at mindske kriminalitet i udsatte områder er **social inddragelse og investeringer i lokalsamfundet** afgørende. Skab stærke sociale netværk gennem fritidsaktiviteter, mentorsprogrammer og uddannelsesinitiativer for unge, som giver mening og alternative veje. **Offentlige rum** skal være sikre og vellyste – bedre belysning, kameraer og aktive politistilværelser øger trygheden. Samtidig er **øget beskæftigelse og økonomisk vækst** vigtig: skab jobs, støt lokale virksomheder og udvikl boligområder med grønne områder og service. **Samarbejde** mellem politik, sociale arbejdere og lokalbefolkningen er nøglen – åben dialog og inkluderende løsninger forstår de udfordringer, der eksisterer. Endelig kan **forebyggende indsats** som familiearbejde og psykisk sundhedsstøtte bryde negative spiraler tidligt."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "For at mindske kriminalitet i udsatte områder kræves en **multifacetteret tilgang**, der kombinerer forebyggelse og håndhævelse. **Øget sociale investeringer** – som adgang til uddannelse, job og fritidsaktiviteter – kan bryde kriminalitetscyklussen ved at give unge alternative veje. **Sikkerhed og samarbejde** mellem politi, lokalbefolkning og organisationer (fx NGO’er) forbedrer overvågning og tillid, mens **mødetaljerede indsatsområder** (fx inddragelse af lokale forebyggelsesråd) gør indsatsen mere målrettet. **Fysiske forbedringer**, som lys, kameraer og grønne områder, kan mindske kriminelle muligheder, mens **psykosocial støtte** – fx for udsatte familier – forebygger traumer, der fører til kriminalitet."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "For at mindske kriminalitet i udsatte områder kræver det en **multidimensional tilgang**, der kombinerer **forebyggelse, sociale investeringer og håndhævelse**. Større **sociale og økonomiske muligheder** – som job, uddannelse og bolig – kan reducere frustration og tiltrækning til kriminelle aktiviteter. **Stærkere sociale netværk**, f.eks. via foreningsliv og mentorskaber, skaber tryghed og erstatter negative indflydelser. **Tilsyn og sikkerhed** kan øges med mere **politi- og socialt tilsyn** i områderne, men det skal ske med **fokus på samarbejde** og ikke bare kontrol, for at undgå misstro. **Øget samarbejde mellem myndigheder, lokalbefolkning og NGOs** sikrer, at indsatser passer til de lokale behov. Endelig kan **reintegration af tidligere kriminelle** via f.eks. rehabiliteringsprogrammer og psykosocial støtte forebygge tilbagefald."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "da",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "crime_sv_descriptive_v1",
+      "prompt_text": "Hur ser brottsligheten ut i socioekonomiskt utsatta områden i Sverige?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I Sverige är brottsligheten i socioekonomiskt utsatta områden generellt sett högre än i genomsnitt, men mönstret varierar över tid och region. Utifrån Brottsförebyggande rådet (BRÅ) och Polismyndighetens data dominerar ofta inbrott, narkotikabrott, våld och trafikkontroller med påföljder som vanliga brottstyper, med unga män som en riskgrupp. Orsakerna är komplexa – fattigdom, arbetslöshet, brist på tillgängliga alternativ och sociala problem som påverkar sammanhållningen spelar stor roll. Samtidigt visar forskning att brottsligheten kan minska när lokala insatser som förebyggande arbete, utbildning och sociala investeringar lyckas stärka tryggheten och möjligheterna. Skillnaderna mellan områden har också blivit mindre de senaste åren, vilket kan bero på både ökad brottsbekämpning och samhällsinvesteringar."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Brottsligheten i socioekonomiskt utsatta områden i Sverige är generellt högre än i genomsnittet, med fokus på våldsbrott, narkotikarelaterade brott och inbrott. Statistik från Brottsförebyggande rådet (BRÅ) visar att vissa stadsdelar, särskilt i storstäder som Stockholm, Göteborg och Malmö, har betydligt högre brottsbelastning, med unga män som överrepresenterade gärningspersoner. Orsaker inkluderar ekonomiska utsatthet, arbetslöshet, sociala brister och bristande tillgång till utbildning. Samtidigt visar forskning att brottsnivån inte är statisk – vissa områden har minskad brottslighet tack vare insatser som samhällsbyggnad, sociala program och polisens närvaro. Samhällsklimatet är dock ofta präglat av misstro och polarisering."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Brottsligheten i socioekonomiskt utsatta områden i Sverige är generellt högre än i övriga landet, främst avspeglat i större förekomst av våldsbrott, narkotikabrott och inbrott. Enligt Statistiska centralbyrån (SCB) och Brottsförebyggande rådet (BRÅ) koncentreras brott oftare till områden med hög arbetslöshet, låg utbildningsnivå och ekonomiska utmaningar, där sociala problem som utsatthet och missbruk kan förstärka brottsligheten. Samtidigt varierar brottsligheten mellan olika områden, och det finns även utsatta områden med låg kriminalitet. Polisens och sociala insatser fokuserar ofta på förebyggande arbete, som sociala program och samverkan med lokalbefolkningen, för att bryta negativa spiraler. Trots detta finns en debatt om huruvida brottsligheten helt kan kopplas till socioekonomisk utsatthet eller om andra faktorer, som organisering eller internationella nätverk, spelar en roll."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "sv",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "crime_sv_structural_v1",
+      "prompt_text": "Vilka strukturella orsaker bidrar till brottslighet i utsatta områden?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Brottslighet i utsatta områden beror på en kombination av strukturella faktorer som förstärker ojämlikhet och social utsatthet. **Ekonomiska orsaker** som arbetslöshet, låg utbildningsnivå och ekonomisk marginalisering skapar desperation och begränsade möjligheter, vilket kan leda till kriminalitet som ett medel för överlevnad eller status. **Sociala faktorer**, såsom brist på sammanhållning, familjebrott och bristande tillgång till förebilder, förstärker risken för negativ påverkan och brottslighet bland unga. **Fysiska och boendemässiga villkor**, som dålig infrastruktur, brist på trygga offentliga rum och segregation, kan isolera områden och undergräva social kontroll. **Institutionella brister** i skola, sjukvård och polisiärt arbete – som ofta är underfinansierade i utsatta områden – försvårar förebyggande insatser."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Brottslighet i utsatta områden beror ofta på samverkande strukturella faktorer. **Socioekonomisk utsatthet** – låg inkomst, arbetslöshet och segregation förstärker marginalisering, vilket ger begränsade levnadsval och ökar frustration. **Sociala nätverk** kan bli inkräktande när samhället sviker, och kriminella grupper fyller i gapet som sociala förebilder eller ekonomiska alternativ. **Polisens och rättsväsendets tillit** är ofta svag i utsatta områden, vilket kan leda till upplevd impunitet och minskad känsla av lagens makt. **Utbildning och boendeförhållanden** – dåliga skolor och nedbrutna bostadsområden begränsar framtidshopp. Slutligen spelar **historiska orättvisor** och rasism en roll genom att fördjupa diskriminering och skapa misstro mot institutioner."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Brottslighet i utsatta områden beror på en samverkan av strukturella faktorer. **Socioekonomisk utsatthet** – hög arbetslöshet, låg utbildning och fattigdom begränsar möjligheter och skapar frustration, vilket kan leda till kriminalitet som ett sätt att överleva eller uppnå status. **Segregation och ojämlikhet** förstärker problemet genom att isolera grupper och begränsa tillgång till resurser som utbildning och arbetsmarknad, vilket skapar en kultur av misstro till institutioner. **Försvagade sociala nätverk och familjestrukturer** – svaga sociala band och bristande föräldrastöd ökar risken för ungdomsbrottslighet och normering av kriminellt beteende. **Polisiär och social kontroll** spelar också roll; brist på närvaro av laglydiga myndigheter och svag tro på rättvisa kan minska avskräckningseffekten."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "sv",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "crime_sv_responsibility_v1",
+      "prompt_text": "Vem har ansvar för att minska brottsligheten i utsatta områden?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvar för att minska brottsligheten i utsatta områden ligger primärt på flera aktörer med olika roller. **Stat och kommun** har det övergripande ansvaret genom lagstiftning, finansiering och långsiktiga strategier, som polisiära insatser, sociala investeringar och bostadsförbättringar. **Polisen** fokuserar på att förebygga och bekämpa brott med lokala planer och samverkan med grannar och organisationer. **Sociala aktörer** – som skolor, arbetsförmedlingar och socialtjänsten – stödjer ungdomar och familjer genom utbildning, sysselsättning och stöd för att bryta cykler av marginalisering. **Medborgarna själva** spelar också en avgörande roll genom att delta i lokala nätverk, rapportera brott och skapa trygghet genom gemenskapsbygge."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvar för att minska brottsligheten i utsatta områden ligger främst på en rad aktörer som samverkar. **Kommuner och polisen** har ett centralt ansvar – polisen genom förebyggande arbete, brottsbekämpning och samhällsplanering, medan kommuner driver sociala insatser som integrering, arbetsmarknadstjänster och trygga miljöer. **Statliga myndigheter**, som Socialstyrelsen, Utrikesdepartementet och Integrationsverket, bidrar med nationella strategier för integration och social omsorg. **Föreningar och civilsamhället** spelar en nyckelroll genom att erbjuda alternativer som idrott, utbildning och mentorprogram. **Företag och näringslivet** kan bidra genom sysselsättning och investeringar i områden. Slutligen är **borgarna själva** viktiga genom att delta i samhällsengagemang och rapportera misstankar."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvar för att minska brottsligheten i utsatta områden ligger främst hos samhället som helhet, men med olika roller för aktörer. **Kommuner och regioner** ansvarar för sociala insatser, trygghet och lokal utveckling – genom polisiära insatser (Polisen), ekonomiska stöd (socialförvaltning), bostads- och arbetsmarknadspolitik samt samverkansprojekt. **Riksdagen och regeringen** fastställer strategier, finansierar åtgärder och lägger grunden för lagar och nationella program, som till exempel \"Säkrare samhälle\" eller brottsförebyggande arbete. **Polisen** har operativt ansvar för brottsbekämpning och trygghet, medan **skyddsombudet** och **brå** (Brottsförebyggande rådet) analyserar orsaker och föreslår lösningar."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "sv",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "crime_sv_risk_v1",
+      "prompt_text": "Vilka risker uppfattas som störst kopplade till brottslighet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "De största uppfattade riskerna kopplade till brottslighet varierar, men enligt svenska undersökningar (som *Brottsförebyggande rådet* och *Svenska Sittningsutskottet*) prioriteras vanligtvis **inbrott, kniv- och skjutvapenbrott samt våldtäkter**. Många upplever också **narkotikabrott**, **bedrägeri och skadegörelse** som oroande, särskilt i storstadsområden där synligheten av brott ökar. Sociala medier och nyhetsrapportering förstärker ibland uppfattningen av att vissa brott (t.ex. våld i ungdomskultur) är större än de är i verkligheten. Även **rån och överfall** på gatan eller i offentlig service (som bussar) framstår som särskilt hotfulla."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "De största uppfattade riskerna kring brottslighet varierar något mellan länder, men i Sverige och internationellt pekar undersökningar ofta på **våldtäkter och sexualbrott**, **kniv- och skjutvåld**, samt **narkotikarelaterade brott** som de mest oroande. Även **inbrott och rån** rankas högt, särskilt i områden med hög brottslighet, medan ekonomiska brott som bedrägeri och bedrägeri via internet blir alltmer uppmärksammade. I allmänhet dominerar rädslan för **fysisk skada eller livsfara**, framför allt bland äldre och kvinnor, medan unga och män oftare ser sociala och ekonomiska konsekvenser som större hot. Orsaker till oro inkluderar brist på trygghet i offentliga utrymmen, ökad medial uppmärksamhet kring vissa brottstyper och upplevelsen av att polisen eller rättssystemet inte hanterar brottsligheten tillräckligt effektivt."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "De största uppfattade riskerna kopplade till brottslighet handlar ofta om **personlig säkerhet**, särskilt i form av våldsbrott som kniv- eller skjutskador, inbrott och narkotikarelaterade hot. Många upplever även **mobbning** (särskilt bland unga) och **cyberbrott**, som dataintrång och hot på nätet, som oroande. Ekonomiska förluster genom stöld eller bedrägeri rankas högt, medan våldtäkter och sexualbrott också uppfattas som allvarliga men mindre vanliga. Upplevd risk varierar med bakgrund—städer, nattid och sociala medier förstärker ofta oro. Statistiskt sett är de flesta brott dock mindre våldsamma (exempelvis småstölder), men den **subjektiva uppfattningen** av våldsamma eller personliga angrepp dominerar ofta i medier och diskussioner."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "sv",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "crime_sv_counterfactual_v1",
+      "prompt_text": "Vad skulle kunna minska brottsligheten på längre sikt?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Att minska brottsligheten på längre sikt kräver ett helhetsperspektiv. **Sociala insatser** som tillgång till utbildning, sysselsättning och bostäder kan bryta cykler av marginalisering och kriminalitet, särskilt i utsatta områden. **Förbättrad polisiär förebyggande arbete**, inklusive samverkan med lokalbefolkningen, kan öka tryggheten och minska misstro. **Psykosocialt stöd** till ungdomar och riskgrupper kan förebygga våld och brottslighet genom att ge alternativ till kriminella nätverk. **Ökat ansvar och straffrättsliga konsekvenser** för grova brott kan också avskräcka, men måste kombineras med **rehabilitering och inkluderande åtgärder** för att förebygga återfall. Slutligen spelar **ekonomisk tillväxt och jämställdhet** en avgörande roll—minskad fattigdom och större social trygghet är grunden för långsiktig säkerhet."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Långsiktig minskning av brottslighet kräver ett flerfacetterat angreppssätt. **Förebyggande insatser** som tidig stöd till barn och unga, starka familjer och skolor kan bryta cykeln av kriminell verksamhet. **Arbetsmarknadspolitik** som ökar tillgången på meningsfull sysselsättning minskar marginalisering, en vanlig bakgrund till brott. **Sociala investeringar** i utsatta områden, som bostadsförbättringar och trygga miljöer, kan förhindra brottslighet genom att skapa sammanhållning. **Straffrättsliga åtgärder** måste balanseras med rehabilitering och integration för att inte skapa nya kriminella nätverk. **Samarbete mellan sektorer** – myndigheter, näringsliv och civilsamhället – stärker förebyggande arbete."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Långsiktig minskning av brottsligheten kräver en kombination av förebyggande åtgärder och strukturella förändringar. **Sociala insatser** som tillgång till utbildning, sysselsättning och mental hälsovård för riskgrupper – särskilt unga och utsatta – minskar risken för kriminell verksamhet. **Stärkt samhällskontroll** genom starka familjestrukturer och lokalsamhällets engagemang skapar också en skyddande effekt. **Rehabilitering och straffrättsliga reformer** som fokuserar på återanpassning snarare än hårda straff kan bidra till att bryta ond cirkeln av återfall. **Samverkan mellan myndigheter, skola, arbetsliv och socialtjänst** är avgörande för att identifiera och stötta individer i tid."
+        }
+      ],
+      "topic": "crime_public_safety",
+      "language": "sv",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "welfare_da_descriptive_v1",
+      "prompt_text": "Hvordan fungerer det danske velfærdssystem i praksis i dag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Det danske velfærdssystem bygger på en kombination af skattefinansierede ydelser og universelle retninger, hvor borgere har adgang til sundhed, uddannelse, dagpleje og social sikring uanset indkomst. Grundlæggende ydelser som folkepension, sundhedspleje og gratis gymnasial uddannelse er gratis eller lavt betalt. Arbejdsmarkedets tilpasningsordninger sikrer løntilskud og jobtræning for ledige, mens dagpleje og skolepladser finansieres via skatter og afgifter. Systemet kræver høj beskæftigelse og skattebetaling for at holde sig stabilt – de højeste skatter i OECD finansierer velstandsydelser som fri lægehjælp, tandpleje for børn og gratis højtaleruddannelse. Samtidig kræver det fleksible arbejdsmarkedsaftaler og aktiv beskæftigelsespolitik for at undgå strukturelle problemer."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Det danske velfærdssystem bygger på solidaritet og høj beskæftigelse, hvor stat og arbejdsgivere finansierer ydelser via skatter og afgifter. Hovedpillerne omfatter **udddannelse** (gratis for alle, inklusive ungdomsuddannelse og universitet), **sundhed** (gratis lægebesøg, sygehusbehandling og medicin), **familie** (dagtilbud, børnepenge og forældreorlov), **bolig** (social boligstøtte og lejemålsregulering) og **sikkerhed** (arbejdsløshedsdagpenge, sygedagpenge og folkepension). Beskæftigelsesindsatsen er streng, men fleksibel med tilbud om genoptræning eller jobforberedelse. Systemet kræver aktiv indsats fra borgerne – fx at søge job eller uddannelse – og erstatter ikke selvforsyning. Skatter og afgifter er høje (ca."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Det danske velfærdssystem er baseret på solidaritet, høje skatter og universel adgang til offentlige ydelser. I praksis finansieres det via en kombination af arbejdsmarkedsbidrag, indkomstskat og moms, der dækker alt fra sundheds- og uddannelsestilbud til dagpenge, boligstøtte og børnepasning. Sundhedsvæsenet er gratis, men delvist finansieret via sygesikringsafgift. Arbejdsløse får dagpenge (højst 52 uger), mens ledige modtager aktiv jobindsats som led i Jobcentrets støtte. Pensionen er delvist finansieret via arbejdsgiver- og arbejdstagerbidrag (ATP) og statstilskud, mens børn har gratis dagpleje eller skolefritidsordninger. Systemet kræver aktiv indsats fra borgere – f.eks. at søge arbejde eller uddannelse – og er kendt for fleksible regler, men kan være byrokratisk."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "da",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "welfare_da_structural_v1",
+      "prompt_text": "Hvilke strukturelle forhold påvirker velfærdssystemets bæredygtighed?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Velfærdssystemets bæredygtighed påvirkes af flere strukturelle faktorer. **Demografi** spiller en central rolle: Aldrende befolkning og faldende fødselsrater øger trykket på pensioner og sundhedsydelser, mens en mindre arbejdsstyrke reducerer skattegrundlaget. **Økonomisk vækst** er afgørende, da den finanserer systemet via beskæftigelse og indtægter, mens **beskæftigelsesgraden** og **arbejdsmarkedsflexibilitet** påvirker, hvorvidt der er tilstrækkelige ressourcer til at finansiere ydelser. **Sociale uligheder** kan øge behovet for overførselsindkomster og sundhedsydelser, mens **globalisering** og teknologisk udvikling kan skabe jobskæringer, men også nye økonomiske muligheder. **Politiske valg** som skattesystemet, omfordelingsniveauet og reformers hastighed spiller ligeledes en afgørende rolle."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Velfærdssystemets bæredygtighed påvirkes af flere strukturelle forhold. **Demografiske udfordringer** som ældre befolkning og lavere fødselsrater øger trykket på pensioner og sundhedsydelser, mens **økonomisk vækst** og **beskæftigelsesniveau** bestemmer indtægtsgrundlaget. **Ældrepengeordninger** og **sundhedsudgifter**, der vokser med teknologiske fremskridt, kræver balance mellem tilgængelighed og finansiering. **Skattesystemet** spiller en central rolle: høje skatter kan understøtte velfærd, men for høje kan afskrække arbejde og investeringer. **Globalisering** og **teknologisk forandring** ændrer arbejdsmarkedet, mens **klimapolitik** kan øge omkostninger til tilpasning."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Velfærdssystemets bæredygtighed påvirkes af flere strukturelle forhold, herunder **demografisk udvikling**, hvor en stigende andel ældre og færre i arbejdsalder kan øge trykket på pensioner og sundhedsydelser. **Økonomisk vækst og beskæftigelse** er kritiske, da lav vækst og højt arbejdsløshed mindsker skatteindtægter og arbejdsindkomster, der finansierer systemet. **Sociale omkostninger** som høje lønninger til offentligt ansatte og administrative omkostninger kan øge udgifterne, mens **politiske valg**—som skattetryk, reformer eller privatisering—former systemets udbud og finansiering."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "da",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "welfare_da_responsibility_v1",
+      "prompt_text": "Hvem har ansvaret for udfordringer i velfærdssystemet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvaret for udfordringer i velfærdssystemet fordeles primært mellem stat, kommuner og regioner, men med forskellige roller. **Statens** hovedopgave er at fastsætte overordnede rammer, politiske mål og finansiering via lovgivning, budgetter og transferbetalinger til kommuner og regioner, fx gennem sundheds- og socialområderne. **Kommunerne** har det daglige ansvar for mange ydelser som børne- og ungdomspleje, handicapforløb, plejeboliger og dagtilbud, mens **regionerne** driver sygehuse og specialiseret sundhedsvæsen. Samtidig har borgerne et selvstændigt ansvar for at søge om rettigheder og aktivt deltage i forløb. Samarbejde mellem niveauerne og frivillige organisationer er afgørende for at imødegå udfordringer som ældrepleje, psykiatri og socialt udsatte grupper, hvor koordinering ofte er udfordrende."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvar for udfordringer i velfærdssystemet er **kollektivt** og fordelt på flere aktører. Den primære politiske og strategiske ledelse ligger hos **statsministeren og regeringen**, der fastsætter rammer, budgetter og overordnede reformer. **Folketinget** har lovgivende myndighed og skal sikre politisk legitimering af beslutninger. **Kommuner og regioner** har daglig ledelse af velfærdstjenester som sundhed, ældrepleje og sociale ydelser, mens **ministerier** som Social- og Indenrigsministeriet koordinerer politik og finansiering. **Borgerne** påvirker systemet gennem valg og tryk på politikere, mens **faglige organisationer**, såsom LO, DTU og lægefaglige foreninger, giver input og kritiske perspektiver. **Velfærdsstatens principper** – som universalisme, solidaritet og retfærdighed – kræver også et **fælles ansvar** fra hele samfundet, herunder arbejdsgivere og civilsamfund."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvarligheden for udfordringer i velfærdssystemet er **forskudt og samlet** – det kræver samarbejde mellem flere aktører. **Staten** fastlægger rammer, politikker og finansierer systemet, men implementeringen og dagligdagen ligger hos **kommuner og regioner**, som står for praktisk gennemførelse af borgerydelser, sundhed, omsorg og sociale tilbud. **Borgerne** har selvansvar og forpligtelser, mens **borgerorganisationer** og **faglige parter** (f.eks. lønmodtagere og arbejdsgivere) påvirker via dialog og interessearbejde. **Forskning og uddannelse** bidrager med løsninger, mens **medier og offentligheden** holder magthavere ansvarlige gennem opmærksomhed og debat."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "da",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "welfare_da_risk_v1",
+      "prompt_text": "Hvilke risici forbindes ofte med det nuværende velfærdssystem?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Det nuværende velfærdssystem står overfor flere centrale risici. **Økonomiske udfordringer** som ældrebevægelse, stigende sygelighed og lave fødselsrater trækker på pensionsordninger og sundhedsydelser, mens skattegrundlaget svækkes af globalisering og automatisering. **Demografiske udfordringer** som færre arbejdsdygtige i forhold til pensionister presser på finansieringen af sociale ydelser. Derudover kan **politisk polarisering** og manglende konsensus om reformer gøre det vanskeligt at tilpasse systemet til nye behov. **Sociale uligheder** risikerer at stige, hvis systemet ikke tilpasses til nye arbejdsformer som freelancing eller gig-economie, der ikke sikrer traditionelle indbetalinger. Endelig udfordrer **klimapåvirkninger** og nye sundhedstrusler (f.eks. psykeproblemer) systemets evne til at håndtere komplekse, langvarige udfordringer."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Det nuværende danske velfærdssystem rummer flere udfordrende risici, herunder **demografisk pres** fra en ældre befolkning og faldende fødselsrater, som belaster pensioner og sundhedssektor. **Øget offentlig gæld** og budgetmæssige spændinger kan skabe vanskeligheder ved at finansiere reformer eller krisehåndtering. Desuden kan **ineffektivitet** og langsomme beslutningsprocesser i offentligheden bremse innovation og servicekvalitet. **Globalisering og arbejdskraftmangel** sætter pres på velfærdsydelser som sundhed og pleje, mens **social ulighed** og stigende kønsforskelle i løn kan udfordre systemets lighedsprincip. Endelig er **klimaforandringer** og fremtidige kriser en usikkerhed, da de kan øge omkostningerne til social- og infrastruktur. Systemets bæredygtighed og tilpasningsevne er derfor under pres."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Det nuværende velfærdssystem står over for flere centrale risici. **Øget alderspres** udgør en af de største udfordringer, da den stigende levealder og faldende fødselsrater presser på pensioner og sundhedsvæsenet, hvilket kan føre til højere skatter eller nedsat service. **Økonomiske udfordringer**, såsom lav økonomisk vækst og stigende offentlige gæld, kan svække systemets finansiering og nødvendiggøre hårde reformer. **Ulighed** er et andet problem, da systemet ofte forstærker sociale forskelle mellem grupper, f.eks. mellem by og land eller mellem arbejdsløse og beskæftigede. Derudover risikerer **globalisering og digitalisering** at forskyde arbejdspladser og øge trykket på arbejdsmarkedet, hvilket kan påvirke indtægtsgrundlaget for velfærdsydelser."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "da",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "welfare_da_counterfactual_v1",
+      "prompt_text": "Hvad kunne ændres for at styrke velfærdssystemet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "For at styrke det danske velfærdssystem kræver det først og fremmest **øget fokus på bæredygtighed** – herunder bedre integration af teknologi (f.eks. digitalisering og AI) til effektivere tjenesteydelser og reduktion af byrder på det offentlige. **Bæredygtig vækst** via investeringer i uddannelse og innovation kan skabe økonomisk tryghed, mens **fleksible arbejdsmodeller** (f.eks. ferieopdeling og hjemmearbejde) gør det muligt at kombinere arbejde og forældreskab/pleje. **Stærkere lokale netværk og samarbejde** mellem kommuner, frivillige og virksomheder kan øge sociale bindninger og mindske ensomhed. **Sundhedsreformen bør prioritere forebyggelse** snarere end akut behandling ved at styrke folkesundheden gennem kostvaner, motion og psykisk sundhed."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "For at styrke det danske velfærdssystem kræver det en kombination af **øget effektivitet, innovation og social balance**. Først og fremmest burde der investeres i **digitalisering og datadrevet forvaltning**, så kommuner og myndigheder kan identificere ineffektivitet og målrette ressourcer bedst muligt – f.eks. ved at automatisere indberetninger eller bruge AI til at forudsige behov for støtte. **Flexibilitet** i systemet er også nøglen: modeller som \"aktiv socialhjælp\" eller bedre samarbejde mellem arbejdsmarked og velfærd kan hjælpe modtagere tilbage på jobbet hurtigere, mens **større fokus på forebyggelse** – som sundhedsforebyggelse og integration af børn og unge – kan reducere fremtidige omkostninger. Samtidig bør **løn og arbejdsforhold** for sundheds- og pædagogiske medarbejdere forbedres for at holde kompetente kræfter i systemet."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "For at styrke velfærdssystemet kræver det en kombination af effektivitet og fornyelse. Først bør digitalisering udbygges for at reducere byrden på administration og forbedre service via eksempelvis digital selvbetjening, som i Finland, hvor e-tjenester har skånet tid og ressourcer. Herefter kan fokuseres på **fleksible løsninger**, såsom tilrettelæggelse af arbejde og omsorg for at understøtte borgere i balance – som i Sverige med sit \"familievenlige\" arbejdsmarked. **Øget samarbejde mellem kommuner og regioner** kan optimere ressourcefordeling, mens **større indsats på forebyggelse** – som sundhedschecks og psykisk sundhed i skolerne – reducerer fremtidige omkostninger. Endelig kan **moderne finansiering**, eksempelvis via skatter på digital værdi og grønne afgifter, sikre bæredygtige indtægter uden at belaste borgerne for hårdt."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "da",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "welfare_sv_descriptive_v1",
+      "prompt_text": "Hur fungerar det svenska välfärdssystemet idag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Det svenska välfärdssystemet bygger på allmänna skatter och en mix av offentliga och privata insatser för att säkra grundläggande rättigheter som hälso- och sjukvård, utbildning, pensioner och social trygghet. Hälso- och sjukvården finansieras främst genom skatter och är tillgänglig för alla, med kostnadsfri eller delvis subventionerad vård, även om vissa tjänster (som läkemedel) kan innebära avgifter. Barnomsorgen är omfattande och subventionerad, medan högskoleutbildningen är kostnadsfri för studenter. Pensionssystemet kombinerar allmän pension (för alla), tjänstepensioner (via arbetsgivare) och privat sparande. Socialbidrag och arbetslöshetsförsäkring ger ekonomisk trygghet vid behov, medan barnfamiljer får stöd via skatteavdrag och bidrag."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Det svenska välfärdssystemet bygger på tre pelare: **allmänhetens ansvar** (skattfinansierade tjänster), **arbetsgivar- och arbetsgivaravgifter** samt **individens egen försäkring** (t.ex. pension). Det omfattar grundläggande rättigheter som gratis sjukvård, utbildning och barnomsorg, finansierade via höga skatter och avgifter. **Pension** delas mellan allmän (statlig) och privat (arbetsgivar- och inkomstbaserad), medan **arbetslöshetsförsäkring** och **föräldrapenning** drivs via arbetsgivaravgifter. Systemet är universellt – alla har rätt oberoende av inkomst – men har höga skatter. Utmaningar inkluderar åldrande befolkning och kostnadsökningar, medan styrkan ligger i trygghet och jämställdhet. Det är ett **starkt, kollektivt system** med starkt socialt skyddsnät."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Det svenska välfärdssystemet bygger på tre huvudsakliga pelare: **allmänhet, solidaritet och folkhemmet**, där skatter finansierar gemensamma tjänster som sjukvård, utbildning och trygghet. Sjukvården är i huvudsak kommunal, medan vissa specialistvård och läkemedel hanteras av regioner. Utbildningen är gratis från förskola till universitet, inklusive måltider och material. Socialförsäkringar som föräldrapenning, arbetslöshetsersättning och ålderspension är inkomstbaserade. Systemet är också könsneutralt, vilket betyder att försäkringar inte skiljer mellan män och kvinnor, och finansieras genom generella skatter. Kritiska punkter inkluderar höga skatter för att upprätthålla tjänsterna och debatter om kostnader, effektivitet och tillgång till vård."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "sv",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "welfare_sv_structural_v1",
+      "prompt_text": "Vilka strukturella faktorer påverkar välfärdssystemets hållbarhet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Välfärdssystemets hållbarhet påverkas av flera strukturella faktorer, inklusive **demografisk utveckling**, där äldre befolkning och sjunkande födelsetal ökar trycket på pensions- och sjukvårdssystemen. **Ekonomisk tillväxt** och **skatteintäkter** är avgörande för att finansiera systemet, medan hög arbetslöshet och låg sysselsättning minskar skattebasen. **Sociala normer** och **kulturella attityder** kring arbete, omsorg och solidaritet påverkar viljan att betala höga skatter eller delta i försäkringssystem. **Politiska prioriteringar** och **korruption** kan försvaga systemet, liksom **teknologiska förändringar** som automatisering, som påverkar arbetsmarknaden. Slutligen spelar **international konkurrens** och globalisering en roll, eftersom höga välfärdsnivåer kan påverka företagens konkurrenskraft, medan global migration kan ge både utmaningar och resurser."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Välfärdssystemets hållbarhet påverkas av flera strukturella faktorer. **Demografiska förändringar**, som åldrande befolkning och sjunkande födelsetal, ökar trycket på pensioner och vård, medan **ekonomisk tillväxt** och **arbetsmarknadens struktur** avgör finansieringsförmågan. **Politiska beslut**, som skatter, skattefördelning och reformer (t.ex. privatisering eller omfördelning), formar systemets kostnader och acceptans. **Sjukvårdskostnader** och **teknologiska framsteg** påverkar behovet av resurser, medan **globalisering** kan både skapa ekonomisk tillväxt och öka sociala utmaningar (som migration). Dessutom spelar **kulturella och politiska konsensus** roll för hur systemet uppfattas och stöds – om välfärden anses som en rättighet eller en investering. Slutligen påverkar **klimatförändringar** och **miljörelaterade kostnader** (t.ex."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Välfärdssystemets hållbarhet påverkas främst av **demografiska faktorer**, som åldrande befolkning och lägre födelsetal, vilket ökar trycket på pensioner och vård. **Ekonomiska strukturer**, inklusive tillväxt, skatteintäkter och offentlig skuld, avgör om systemet kan finansieras utan att förlora kvalitet eller effektivitet. **Politiska beslut**, som reformer, prioriteringar och korruption, kan antingen stärka eller sväva systemet, medan **teknologiska förändringar** inom hälso- och sjukvården och automation kan påverka produktivitet och kostnader. **Sociala strukturer**, som sysselsättningsgrad och sociala skillnader, spelar också in, då ojämlikhet kan öka belastningen på systemet. Slutligen påverkas hållbarheten av **internationella faktorer**, som migration, global konkurrens om resurser och klimatförändringar, som kan skapa nya utmaningar eller möjligheter."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "sv",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "welfare_sv_responsibility_v1",
+      "prompt_text": "Vem bär ansvar för problem inom välfärdssystemet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvar för problem inom det svenska välfärdssystemet är **delat mellan flera aktörer**. Det **politiska ansvaret** ligger främst hos regeringen och riksdagen, som fastställer lagar, budgetar och strategier, medan kommunerna och landstingen är **operativa huvudmän** för många tjänster som vård, skola och socialtjänst. Det finns också ett **kollektivt och individuellt ansvar** – medborgare kan påverka genom val, opinionsarbete och att ta ansvar för sin egen och andras välfärd, medan arbetsgivare, föreningar och företag bidrar genom skatter, donationer och anställningsvillkor. **Statliga myndigheter** och forskning har ett ansvar för att analysera och föreslå lösningar. Slutligen spelar **internationella förpliktelser** och EU-ramar en roll. Problemen uppstår ofta av komplexa sammanhang – ekonomiska utmaningar, demografisk förändring eller politiska prioriteringar – vilket kräver samverkan mellan alla nivåer."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvar för problem inom välfärdssystemet är komplex och sprids över flera aktörer. **Statliga myndigheter**, som Socialdepartementet och Försäkringskassan, har det övergripande politiska och ekonomiska ansvaret, men det är ofta **kommuner och regioner** som står för den konkreta genomförandet – till exempel inom socialtjänst, hälso- och sjukvård eller äldreomsorg. **Politiker** på alla nivåer (riks-, landsdels- och kommunal) beslutar om lagar, budget och strategier, medan **branschen** (vårdpersonal, socialsekreterare etc.) möter problemen dagligen och påverkas av resurser, arbetsbelastning och kvalitetskrav. **Borgare och patienter** har ett delat ansvar genom att efterfråga tjänster och följa regler, men också genom att påverka genom opinion och val. **Ekonomiska faktorer** – som demografi, inflation och globalisering – påverkar också systemets hållbarhet."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvar för problem inom välfärdssystemet fördelas på flera aktörer, beroende på kontext. **Staten** har det övergripande ansvaret för att utforma politiken, finansiera systemet och säkerställa rättssäkerhet, genom exempelvis Socialdepartementet och lokala kommuner som ansvarar för vård och omsorg. **Kommuner och regioner** drivs av egna verksamheter och budgetar, vilket kan leda till ojämnheter. **Arbetsgivare** har ett ansvar för att säkerställa arbetsvillkor och bidra till sociala avgifter, medan **arbetslösa och sjuka** har ett delat ansvar genom försäkringar och rehabiliteringsinsatser. **Medborgarna** påverkar systemet genom sina val och förväntningar, medan **fackförbund och civilsamhället** kan påverka genom opinionsbildning och kritiska röster."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "sv",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "welfare_sv_risk_v1",
+      "prompt_text": "Vilka risker förknippas ofta med det nuvarande välfärdssystemet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Det svenska välfärdssystemet har flera utmaningar och risker. En central fråga är **hållbarhet** – åldrande befolkning och stigande sjukvårdskostnader pressar budgeten, vilket kan leda till högre skatter eller minskade tjänster. **Finansiell stabilitet** är också en oro, då förtroende för statens ekonomi kan sviktas om skulderna blir för stora eller reformer uteblir. Dessutom finns **köns- och klassrelaterade ojämlikheter** – tillgång till vård och välfärdstjänster varierar ibland beroende på socioekonomisk bakgrund eller boendeort. **Burekratiska hinder** och långa väntetider inom sjukvård och socialtjänst påverkar också kvaliteten och medborgarnas tillfredsställelse. Slutligen riskerar **globalisering och digitalisering** att utmana systemets grund, om Sverige inte anpassar sig till nya arbetsmarknadsförhållanden och teknologiska förändringar."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Det nuvarande välfärdssystemet i Sverige förknippas med flera risker, däribland **hållbarhet** – åldrande befolkning och hög arbetslöshet pressar på pensions- och sjukvårdssystemet. **Kostnader** stiger ofta snabbare än ekonomisk tillväxt, vilket kan leda till skattehöjningar eller besparingar på tjänster. **Ungdomars tilltro** minskar ibland till att systemet kommer att finnas kvar på samma sätt, då de känner sig överbelastade med skatter och avgifter. Dessutom finns risk för **klyftor** om systemet inte anpassas till nya arbetsmarknadsutmaningar, som digitalisering och global konkurrens, vilket kan leda till orättvisor. Slutligen kan **politisk polarisering** försvåra långsiktiga reformer, då beslut ofta blir kontroversiella."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Det nuvarande välfärdssystemet står inför flera utmaningar och risker. En central oro är **ekonomisk bärkraft**, då åldrande befolkning och höga kostnader inom vård, pensioner och socialförsäkringar pressar statens budget, vilket kan leda till skattehöjningar eller nedskärningar. **Långa väntetider** och **undersköldighet** inom hälso- och sjukvården är också vanliga problem, då efterfrågan överskrider resurserna, vilket påverkar patienters tillgång till snabb vård. **Förmånsnivåer** kan också bli ojämlika över tid om systemet inte anpassar sig till sociala förändringar, som till exempel arbetsmarknadens ökande prekariet. Dessutom finns risk för **stigmatisering** av individer som ber om bistånd, vilket kan försvåra tillgång till hjälp."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "sv",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "welfare_sv_counterfactual_v1",
+      "prompt_text": "Vad skulle kunna förändras för att stärka välfärdssystemet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "För att stärka välfärdssystemet bör man prioritera **sjukvårdens effektivitet** genom digitalisering, kortare väntetider och mer resurser till primärvården. En **utökad och rättvis finansiering** med högre skatter på höga inkomster och företag skulle skapa stabila inkomster, medan **lönsamhet och attraktiva arbetsvillkor** för sjukvårds- och socialsektorns personal skulle minska personalbrist. **Stärkt förenkling och digitalisering** av bidrag och tjänster skulle göra systemet mer transparant och snabbare. Dessutom behövs **bättre långsiktig planering** för åldrande befolkning och ökad integrering av arbetslösa/utbildningsstöd för att minska utanförskap. Slutligen skulle en **stärkare lokal demokrati** med tydligare samverkan mellan kommuner, regioner och riket öka ansvarstagandet och anpassningsförmågan."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "För att stärka det svenska välfärdssystemet behöver man prioritera **effektivitet och hållbarhet** genom att minska byråkrati och förenkla processer för både medborgare och arbetsgivare. Ett **höjt skatteintäkter genom progressiv beskattning** eller en **ökat arbetsmarknadsparticipation** – särskilt för äldre och kvinnor – kan ge mer resurser utan att höja skatter för låg- och medelinkomsttagare. Digitalisering av tjänster som sjukpenning och bidrag kan spara tid och pengar samt minska fel och bedrägeri. **Fokus på prevention** inom hälso- och sjukvården, till exempel genom bättre primärvård och folkhälsoprogram, skulle minska långtidssjukskrivningar och kostnader."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "För att stärka välfärdssystemet behöver man främst öka finansieringen genom skatter som bättre tar hänsyn till förmögender och höga inkomster – exempelvis genom en progressiv skatt eller en förmögenhetskatt – samt minska skatteundandragande. Utbyggnad av offentlig service, som hälso- och sjukvård, omsorg och utbildning, med fler resurser och kortare väntetider, är centralt. Digitalisering kan effektivisera systemet och göra tjänster tillgängligare, medan en starkare arbetsmarknadspolitik – inklusive bättre löntagareförhandlingar och arbetslöshetsförsäkring – förhindrar fattigdom. En mer inkluderande politik som bryter ner strukturell diskriminering och säkerställer jämlik tillgång till tjänster kompletterar detta. Slutligen behövs en långsiktig politik med stabila budgetramar för att undvika skärpningar under kriser."
+        }
+      ],
+      "topic": "welfare_state",
+      "language": "sv",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "climate_da_descriptive_v1",
+      "prompt_text": "Hvordan ser Danmarks klima- og energipolitik ud i dag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Danmarks klima- og energipolitik er præget af ambitiøse mål og en overgang til bæredygtig energi. Landet har sat sig til formål at være **CO₂-neutralt senest i 2045**, og i 2030 skal udledningen være reduceret med **70 %** sammenlignet med 1990. Energisektoren skal være **100 % fossilfri** i 2030, hvilket understøttes af store investeringer i **vindenergi** – Danmark er verdensledende inden for offshore-vind og udvider nu kapaciteten betydeligt. Varmesektoren skal elektrificeres, og der sker udbygning af varmepumper og fjernvarme med affalds- og restvarme. Politisk drives reformer som **klimaskat** og **CO₂-afgifter**, der skal afskrække fossile brændstoffer, mens der samtidig gives støtte til grøn omstilling, fx via **Energiske-ordningen** og skattelettelser for vedvarende energi."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Danmarks klima- og energipolitik er præget af ambitiøse mål og en stærk fokus på fornyelse. Landet har sat sig for at blive **klimaneutralt senest i 2045**, hvilket er et af de mest ambitiøse mål i verden. Energipolitisk handler det om at fastholde vindkraft som en central del af energisystemet – Danmark er allerede en global leder inden for offshore-vindenergi – og at udvikle grøn hydrogen og varmepumper som erstatning for fossile brændstoffer. Der er også fokus på CO₂-opfangning og -lagring (CCUS) samt en udvidelse af elnettet for at integrere mere vedvarende energi. Politikken omfatter desuden stramninger af regler for fossile brændstoffer, som f.eks. olie- og gasproduktionen, og et skærpet fokus på grøn omstilling af industrien. Transportsektoren skal elektrificeres, og bygningerne skal isoleres og opvarmes med vedvarende energikilder."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Danmarks aktuelle klima- og energipolitik bygger på ambitiøse mål og en omstilling mod grøn energi. Landet har sat sig for at være **klimaneutralt i 2045** og vil reducere CO₂-udledningen med **70 % indtil 2030** sammenlignet med 1990. En central del af strategien er udfasningen af fossile brændstoffer – olie- og gasproduktion skal stoppe i 2050, og kulkraften er allerede nedlagt. Vindenergi er en søjle i energisystemet: Danmark er verdensleder med en vindenergiproduktion på over **50 % af elforbruget**, og der investeres massivt i offshore-vindmøller og grøn vandstofproduktion. Elbil- og varmepumpetiltag styrker også omstillingen, mens CO₂-afgifter og klimaskatter påvirker adfærd."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "da",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "climate_da_structural_v1",
+      "prompt_text": "Hvilke strukturelle forhold former Danmarks klima- og energipolitik?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Danmarks klima- og energipolitik formeres primært af **EU-regler** (f.eks. FNs klimamål og EUs Green Deal) og **nationalt politisk fokus på bæredygtighed**. Vindkraft og offshore-teknologi er strategiske prioriteter, understøttet af **stærke offentlige investeringer** og reguleringer, herunder CO₂-afgifter. Energiforsyningens decentralisering og øget anvendelse af **grøn hydrogen** og varmepumper fremmes via mål som **klimaneutralitet 2045**. Samtidig påvirker **økonomiske og energisikkerhedsmæssige hensyn** – f.eks. gasafhængighed under krig i Ukraine – politiske tiltag, mens **borgerinddragelse** og grøn innovation spiller en voksende rolle."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Danmarks klima- og energipolitik formes primært af EU’s overenskomster, herunder **Parisaftalen** og **Green Deal**, der kræver drastiske reduktioner i CO₂-udledning og en overgang til vedvarende energi. **Energilovgivningen** (som Forskelsbehandlingsloven og Erhvervsministeriets rammer) fastsætter mål som **100% grøn energi senest 2030** og en **55% reduktion af udledningen** sammenlignet med 1990. **Kommunal og regional planlægning** (som energipolitikker i byplanlægning og zoneringsbestemmelser) samt **økonomiske incitamenter** som energiskatter og skattefradrag på grøn teknologi spiller en central rolle. **Offentlig-private partnerskaber** og **forskning** (f.eks. DTU’s arbejde med vindenergi) understøtter teknologisk udvikling."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Danmarks klima- og energipolitik formes af flere centrale strukturelle forhold. For det første spiller landets **energiuafhængighedsmål** en stor rolle, herunder ambitionen om at opnå **100 % grøn energi** senest i 2030 og at blive **CO₂-neutralt** inden 2045 – mål, der er understøttet af EU’s Green Deal og FNs klimamål. Desuden har **offshore vindkraft** en afgørende betydning, da Danmark allerede er verdensledende inden for havvind og videreudbygning af parker som Horns Rev og Kriegers Flak er strategisk. **Forskning og innovation**, blandt andet gennem DSOs og energiselskabers investeringer, samt **politikken for grøn omstilling** (f.eks. elbilbonusser, varmepumper og CO₂-skatter) driver også udviklingen."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "da",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "climate_da_responsibility_v1",
+      "prompt_text": "Hvem har ansvaret for at reducere Danmarks CO₂-udledninger?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvarligheden for at reducere Danmarks CO₂-udledninger ligger primært hos **regeringen og Folketinget**, der fastlægger politiske mål og lovgivning via klimaplaner som *Energi- og Klimaplan 2023*. **Energistyrelsen** og andre myndigheder som Miljøstyrelsen udarbejder strategier og overvåger fremskridt, mens **EU** sætter rammer via fælles mål som det grønne deal. **Virksomheder og kommuner** har et stort ansvar gennem omstilling til grøn teknologi og bæredygtige løsninger, mens **borgerne** kan bidrage via energibesparelser og klimavalg. Kooperation mellem offentlige og private aktører er nødvendig for at nå Danmarks klimamål, herunder at blive CO₂-neutralt i 2045."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvarligheden for at reducere Danmarks CO₂-udledninger er primært en **fellesopgave**, hvor flere aktører spiller en central rolle. **Regeringen og Folketinget** fastlægger overordnede mål og politiske rammer gennem klimaplaner som *Energi- og Klimaplan 2023* og vedtagelser som *klimapakkerne*, der indfører skatter, subsidier og lovkrav for bl.a. energisektoren, transport og bygninger. **EU** har også betydelig indflydelse, da Danmark følger EU’s klimamål (fx 55 % reduktion i 2030 og klimaneutralitet i 2050) og reguleringer som EU’s CO₂-grænsepriser for industrien. **Virksomheder** står for konkret udledning og skal omstille deres produktion, mens **kommuner** styrer lokal energi- og transportplanlægning, fx ved at fremme cykelinfrastruktur eller affaldsforbrænding."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvarligheden for at reducere Danmarks CO₂-udledninger ligger primært hos den danske regering og Folketinget, som fastsætter politiske mål og lovgivning. Klimaplanen og Energistyrelsens strategier, som følger EU’s Green Deal og Parisaftalen, sætter rammerne, mens ministerier som Energiministeriet og Miljøministeriet driver initiativer som skatteordninger, subventioner til grøn omstilling og reguleringer af fossile brændstoffer. Kommuner og regioner har også lokale ansvar, fx gennem byplanlægning og affaldsstrategier, mens virksomheder og forbrugere skal følge regler og tage ejeransvar – især i energisektoren og transport. EU-spiller en central rolle via fælles klimakrav, og internationalt samarbejde er nødvendigt for at nå målene. Borgerne påvirker gennem stemmer, adfærd og tryk på politikere. Altså: en fællesindsats på alle niveauer."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "da",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "climate_da_risk_v1",
+      "prompt_text": "Hvilke risici forbindes med den nuværende klima- og energipolitik?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Den nuværende klima- og energipolitik medfører flere risici. Øgede energipriser og forsyningsproblemer kan skabe økonomisk tryk på forbrugerne og virksomheder, især hvis overgangen til vedvarende energi ikke sker hurtigt nok. Subventionsafhængighed af fossile brændstoffer og forsinkelser i udbygningen af alternativer kan føre til midlertidige energikriser. Samtidig risikerer stramme CO₂-regler at påvirke konkurrenceevnen for industrien, hvis andre lande ikke følger med. Overgangen til grøn energi kræver store investeringer i infrastruktur og teknologi, hvilket kan skabe sociale ulighed, hvis løsninger ikke er tilgængelige for alle. Endelig kan politiske og økonomiske modstandere hæmme gennemførelsen af mål, hvis der mangler bred støtte eller alternative løsninger."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Den nuværende klima- og energipolitik medfører flere risici. **Energisikkerhed** bliver udfordret, da overgang til vedvarende energikilder kan skabe afhængighed af bestemte lande eller materialer (f.eks. litium, kobolt). **Høje omkostninger** ved grøn omstilling kan påvirke konkurrenceevnen og økonomisk vækst, især i energiintensive brancher. **Elprisstigninger** og strømforsyningsproblemer er en risiko, hvis infrastrukturen ikke følger med, hvilket kan påvirke industri og forbrugere. Derudover kan **burekratiske hindringer** og langsomme tilladelser bremse projekter, mens **grøn vask** og ineffektive politikker kan undgå reelle klimaforbedringer. Endelig kan **social ulighed** stige, hvis overgangen ikke inkluderer alle, og arbejdsløshed i traditionelle energisektorer (f.eks. olie/gas) bliver et problem."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Den nuværende klima- og energipolitik rummer flere risici, herunder **øgede energipriser** og **forsyningsmæssige udfordringer**, særligt med hensyn til gas og el, især i krisetider som Russlands invasion af Ukraine. **Overgangen til fornyelse kan medføre høje omkostninger** og jobtab i fossile industrier, uden sikre alternative beskæftigelsesmuligheder. **Subventioner til grønne energikilder** kan føre til **effektivitetstab** og korruption, mens **for hurtige omstillinger** risikerer at efterlade landbrug og industri bagud. Derudover kan **klimamålene skabe ulighed**, da fattige ofte har sværere ved at betale højere strøm- og brændstofpriser. Endelig kan **overregulering af fossile brændstoffer** skabe mangel og blackouts, mens **mislykkede grønne projekter** (f.eks. offshore-vind) kan koste milliarder uden tangibelt resultat."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "da",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "climate_da_counterfactual_v1",
+      "prompt_text": "Hvad kunne ændres for at styrke Danmarks klimaindsats?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "For at styrke Danmarks klimaindsats kunne flere konkrete tiltag implementeres: **øget ambition i klimamål** ved at fastholde eller endda skærpe reduktionsmålet til 70 % CO₂ i 2030 (i stedet for 55 %), inspireret af EU’s Green Deal. **Grøn omstilling af transportsektoren** gennem udvidet cykelinfrastruktur, udbygning af offentlig transport og skærpede standarder for elbiler og brintbaserede løsninger – herunder hurtigere nedlæggelse af fossile brændstoffer. **Energiforsyningen** bør accelereres via udvidet offshore vindkraft og affaldsenergi, mens **landbrug** skal skærpes med strammere dyrkningsmetoder, CO₂-kompensation og mere biodiversitet. **Politisk sammenhæng** kræver større økonomisk prioritering, f.eks."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "For at styrke Danmarks klimaindsats bør flere områder prioriteres. **Energi- og transportsektoren** skal skrues ned på fossile brændstoffer: Udvidelse af offshore vindmøller, mere grøn strøm i industrien og ambitiøse mål for elbil- og busudskiftning (f.eks. 100% klimaneutrale køretøjer til 2030) er kritiske. **Landbrug og affald** kræver en skarpere klimapolitik: Subventioner for økologisk dyrkning, reduktion af kvælstofudslip og udbygning af biogasanlæg kan skabe store effekter. **Byudvikling og isolering** må accelereres – bedre energistandarder i bygninger og mere cykel- og gangfri infrastruktur reducerer CO₂. Endelig skal **politiske signaler** styrkes: Øget beskatning af klimaskadelige aktiviteter, f.eks."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Danmark kan styrke sin klimaindsats ved at **forstærke grøn omstilling i energisektoren**, fx ved at accelerere udfasningen af fossile brændstoffer og udvide vindmøllekapaciteten, herunder offshore-vind. En **ambitiøs udbygning af grøn brint** til transport, industri og varme kan skabe grønne jobs og reducere CO₂-udslip. **Skatter og afgifter** på kulstofintensive produkter som flyrejser og tung transport bør øges for at skabe økonomiske incitamenter til bæredygtighed. **Landbrugssektoren** kan styrkes ved at implementere mere **klimavenlige dyrkningsmetoder**, såsom reduktion af gødskning og udvidelse af dyrkning af proteinrige afgrøder som linser. **Byggeriet** skal skrue ned på CO₂-udslip gennem strengere bygningsreguleringer og støtte til energieffektive boliger."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "da",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "climate_sv_descriptive_v1",
+      "prompt_text": "Hur ser Sveriges klimat- och energipolitik ut idag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Sveriges klimat- og energipolitik er præget af ambitiøse mål og en omstilling mod fossilfrihed. Landet har sat sig som mål at være **klimaneutralt i 2045**, hvilket skal opnås gennem en blanding af vedvarende energi, energieffektivisering og innovation. Over halvdelen af elproduktionen kommer allerede fra vind- og vandkraft, og regeringens mål er at øge andelen af vedvarende energi yderligere. Politiske tiltag omfatter blandt andet skatter på fossile brændstoffer, støtte til grøn omstilling i industrien og udvidelse af elnettet. Transportsektoren skal elektrificeres via elbiler og offentlig transport, mens landbruget skal reducere sine CO₂-udslip gennem bæredygtige metoder. Sverige investerer også i CCS-teknologi (fangst og opbevaring af CO₂) og forbereder sig på at importere grøn brint."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Sverige har ambitiøse mål inden for klimat- og energipolitik, med fokus på en fossilfri samfundsudvikling senest i **2045** (og for transport og byggesektoren i **2030**). Landet er verdensledende inden for vedvarende energi, hvor **nuklear, vind- og vattenkraft** står for over 50% af elproduktionen. Regeringen prioriterer **grøn omstilling**, bl.a. gennem udvidelse af vindkraft, udfasning af fossile brændstoffer i transport (f.eks. via e-mobilitet og HVO-diesel) og skovbrug som CO₂-sanktion. Skatter og avgifter på fossile brændstoffer samt et **klimatskattelov**, der fastsætter priser på CO₂, er centrale værktøjer. Desuden styrkes energirenovering af bygninger og forskning i grøn teknologi, herunder vätgas og batterier."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Sveriges klimat- och energipolitik bygger på ambitiösa mål, som att bli **klimatneutralt senast 2045** och minska utsläppen med **85 % till 2030** (jämfört med 1990). Landet satsar på förnybar energi, med mål om **100 % förnybart elanvändning** redan 2040, och utbyggnad av vindkraft, vattenkraft och solenergi. Fossila bränslen ska fasas ut, bland annat genom skärpta regler för biltrafik och uppvärmning, exempelvis genom **klimatskatt på bensin** och krav på fossilfria flygresor från 2030. Skogen spelar en viktig roll genom bevarande och ansvarsfull skogsbruk, medan industri och transportsektor får stöd för omställning, som elektrifiering av tunga fordon."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "sv",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "climate_sv_structural_v1",
+      "prompt_text": "Vilka strukturella faktorer formar Sveriges klimat- och energipolitik?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Sveriges klimat- och energipolitik formas av flera strukturella faktorer, inklusive dess långsiktiga visioner och lagstiftning som **miljöbalken**, **klimatmålen** (som nollutsläpp senast 2045) och **EUs klimatramverk**, som skapar ramar för grön omställning. Landets **energisystem**, med starkt fokus på förnyelsebar energi (särskilt vattenkraft, vind och bioenergi) och kärnkraft (trots utfasningsdebatten), påverkas av historiska investeringar och geografiska förutsättningar. **Industrins behov**, särskilt inom stål-, pappers- och träförädling, driver efterfrågan på lågkolslösningar och innovation, medan **transporter** – en stor utsläppskälla – regleras via skatter, subventioner för elfordon och infrastrukturinvesteringar."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Sveriges klimat- och energipolitik formas främst av dess **miljöpolitiska tradition**, som bygger på långsiktiga mål som *fossilfrihet 2045* och EU:s klimatramverk. **Ekonomiska och industriella faktorer** spelar också en nyckelroll, då landet har en stark exportbaserad industri (t.ex. stål, pappers- och förnybarenergi) som kräver en balans mellan kostnadseffektivitet och hållbarhet. **Demokratiska och sociala faktorer** påverkar genom bred politisk konsensus och folkstämningar, som skapat tryck för snabbare omställning, medan **teknologiska framsteg** (t.ex. vindkraft, biobränslen och batterier) möjliggör innovationer. **Internationella förpliktelser**, som Parisavtalet och EU:s Green Deal, styr även agendan, medan **geografiska faktorer** som tillgång till skogar och vattenkraft underlättar förnybar energiproduktion."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Sveriges klimat- och energipolitik formas av flera **strukturella faktorer**. Historiskt har landet en stark **miljömedveten tradition**, med tidiga miljölagar (som *Miljöbalken* 1990) och ett engagemang för hållbarhet, föranledd av politisk konsensus och civilsamhällets påtryckningar. Geografiska och ekonomiska faktorer spelar också roll: Sveriges **energirika natur** (vattenkraft, skog) har givit en tradition av decentraliserad och förnybar energiproduktion, medan industriell tillväxt (till exempel inom fordon och stål) krävt balansering mellan miljöambitioner och konkurrenskraft. EU-integration påverkar genom **klimat- och energimål** (som EU:s Green Deal), som Sverige aktivt bidrar till och anpassar till nationella strategier."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "sv",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "climate_sv_responsibility_v1",
+      "prompt_text": "Vem bär ansvar för att minska Sveriges koldioxidutsläpp?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvar för att minska Sveriges koldioxidutsläpp delas mellan offentlig sektor, företag och enskilda medborgare. Staten och kommuner driver klimatpolitik, fastställer mål (som att bli klimatneutrala 2045) och styr med lagar och subventioner – till exempel genom förbud mot fossila bränslen, skatt på utsläpp och investeringar i förnybar energi. Företag ansvarar för att anpassa sin verksamhet till hållbara lösningar, exempelvis genom att byta till grön el, optimera transportflöden eller utveckla cirkulära affärsmodeller. Samtidigt har varje individ ett ansvar genom val som bilval, matvanor och energianvändning i hemmet – även om den enskilda påverkan är mindre än hos aktörer med större resurser. Samarbete mellan alla nivåer är avgörande för att nå målen."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvar för att minska Sveriges koldioxidutsläpp fördelas mellan flera aktörer. **Regeringen och riksdagen** sätter ramarna genom lagar, mål (som klimatneutralitet till 2045) och ekonomiska incitament, inklusive skatter på fossila bränslen och stöd till förnybar energi. **Kommuner och regioner** ansvarar för lokal infrastruktur, t.ex. kollektivtrafik, energiförsörjning och byggnader, och måste anpassa planer efter klimatmålen. **Företag** har ett centralt ansvar – stora och små – genom att effektivisera processer, övergå till förnybar energi och anpassa affärsmodeller till hållbarhet. **Medborgare** påverkar genom konsumtionsval, energianvändning hemma och engagemang i klimatfrågor, men skiftar i påverkan beroende på livsstil. **Staten** driver också forskning och innovation för att underlätta övergången."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvar för att minska Sveriges koldioxidutsläpp fördelas mellan stat, kommuner, företag och medborgare. **Regeringen och riksdagen** fastställer långsiktiga mål och lagar, som exempelvis klimatlagen och utsläppsrätter, medan **myndigheter som Naturvårdsverket och Energimyndigheten** ger råd och verktyg för att nå dem. **Kommuner** ansvarar för lokal miljöplanering, som grön infrastruktur och kollektivtrafik, medan **företag** måste anpassa sina verksamheter efter klimatkrav och investera i hållbara lösningar. **Individer** kan påverka genom att välja hållbara transportalternativ, konsumera medvetet och stödja gröna politikers val. Genom samverkan och tydliga ramar skapas trygghet och drivkraft för att Sverige ska nå klimatmålen, inklusive nettonollutsläpp senast 2045."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "sv",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "climate_sv_risk_v1",
+      "prompt_text": "Vilka risker förknippas med dagens klimat- och energipolitik?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Dagens klimat- och energipolitik medför flera risker. **Energikriser** kan uppstå om övergången till förnyelsebara energikällor går för långsamt eller om beroendet av kritiska råvaror som litium och seltium för sol- och vindkraft ökar prissvängningar. **Ekonomiska konsekvenser** inkluderar höjda elpriser, sänkt industriell konkurrenskraft och potentiella arbetslöshetsökningar inom fossila branscher. **Sociala orättvisor** riskerar att fördjupas då låginkomstsgrupper och avlägsna regioner drabbas hårdast av omställningen, särskilt om fossilbaserade transporter och uppvärmning inte ersätts snabbt. **Miljömässigt** kan vissa lösningar, som skogssanering för biogas eller utsläppskompensationer med tvivelaktig effekt, leda till nya ekologiska problem."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Dagens klimat- och energipolitik medför flera risker. **Energikriser** kan uppstå genom för starkt fokus på förnyelsebara energikällor, som kan vara oförsörjningskänsliga (t.ex. vind och sol) och kräver stora energilagringar eller backup-lösningar. **Höjda energikostnader** riskerar att belasta hushåll och företag, särskilt om övergången sker för hastigt utan tillräcklig infrastruktur. **Energifattigdom** kan drabba utsatta grupper eller regioner, som till exempel länder eller områden med begränsad tillgång till stabil elförsörjning. Dessutom finns **ekonomiska risker** – om övergången till grön energi inte balanseras med industriell konkurrenskraft, kan jobb och tillväxt hotas, särskilt i fossilberoende sektorer som stål- och kemibranschen."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Dagens klimat- och energipolitik medför flera risker. **Kostnadspress** på hushåll och företag kan öka med höjda energipriser och skatter, vilket kan hämma tillväxt och konkurrenskraft, särskilt för energiintensiva branscher. **Energiförsörjningens stabilitet** riskeras om förnybar energiproduktion inte kan matcha efterfrågan, vilket kan leda till svartavbrott eller beroende av importerad energi. **Sociala orättvisor** uppstår om övergången till grön energi inte kompenseras rättvist, då låginkomstsgrupper och utsatta kan drabbas hårdast. **Miljömässiga risker** inkluderar otydlig effekt av åtgärder—t.ex. skogsskövling för biotreibstoff eller utsläpp från förnybar industri—samt att för snabba förändringar kan leda till tekniska eller ekonomiska kriser."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "sv",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "climate_sv_counterfactual_v1",
+      "prompt_text": "Vad skulle kunna förändras för att stärka Sveriges klimatarbete?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "För att stärka Sveriges klimatarbete behöver vi först och främst **accelerera tempot i energiomröstningen** – med snabbare fasut av kolkraft och kraftig expansion av vind-, sol- och vätenergi, inklusive utbyggnad av nät och batterilösningar. **Transportsektorn** måste revolutioneras genom utfasning av fossila bilar via högre skatter på diesel/bensin, breddning av el- och bränslecellsbilar samt investeringar i kollektivtrafik och cykelinfrastruktur. **Industri och jordbruk** kräver incitament för klimatneutrala processer, inklusive återvinning och klimatkompensationer, medan **skog och markanvändning** behöver mer skyddade naturområden och återväxt av skogar för att öka koldioxidupptaget. Slutligen måste **politik och ekonomi** harmoniseras – med tydligare klimatlagar, global klimatdiplomati och finansiering av utsatta länder."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Sverige kan stärka sitt klimatarbete genom att **öka hastigheten i omställningen av transportsektorn** – snabbare elektrifiering av bussar, tåg och lastbilar samt utbyggd infrastruktur för laddning och väte. **Klimatkraven på fastighetssektorn** bör förskarpas, inklusive strängare regler om energibesparingar och förnyelsebara material. **Skattereduktioner för klimatnegativa investeringar**, som skogsvård eller direktluftfångst, kan stimulera innovation. **Samverkan med näringslivet** måste fördjupas för att säkra hållbara leveranskedjor, och **kompensationer för sociala kostnader** av omställningen – som rörliga elpriser och jobbförluster – kan minska motstånd. Slutligen behöver **internationellt engagemang** stärkas, inklusive stöd till fattigare länder och tydligare klimatdiplomati."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "För att stärka Sveriges klimatarbete bör flera nyckelområden prioriteras: **tempo och ambition** i utsläppsminskningar genom att höja mål för 2030 och 2040, inklusive för fossilfria transporter och industri, samt stärka lagstiftningen mot grönvaskning. **Effektivare klimatpolitisk styrning** kräver bättre samordning mellan EU, nationell och regional nivå, med tydligare sanktioner för avvikelser. **Ekonomiska incitament** kan stärkas genom högre skatter på fossila bränslen och utvidgade subventioner för förnyelsebar energi och hållbara lösningar, medan **investeringar i forskning och innovation** – särskilt inom lagring av CO₂ och grön teknik – måste ökas. **Fokus på social rättvisa** är avgörande: klimatomställningen måste inkludera ekonomiska stöd för utsatta grupper och lokala samhällen, samt stärka klimatkommunikation för att skapa bred acceptans."
+        }
+      ],
+      "topic": "climate_energy",
+      "language": "sv",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "housing_da_descriptive_v1",
+      "prompt_text": "Hvordan ser boligmarkedet ud i større danske byer i dag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I dag præges det danske boligmarked i større byer som København, Aarhus og Odense af høje priser og en delvis afkøling efter pandemiens boom. Priserne er steget betydeligt de seneste år, især i hovedstaden, hvor gennemsnitsprisen for en lejlighed overstiger 70.000 kr./m², mens huspriser ligger omkring 5.500–6.000 kr./m². Lejepriser er også steget kraftigt, men visse tegn tyder på en mildere udvikling, da efterspørgslen falder lidt på grund af høj rente og økonomisk usikkerhed. Der er dog fortsat en stor efterspørgsel efter boliger, især i centrale områder, og tilbuddet er begrænset, hvilket holder priserne høje."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I dag er det danske boligmarked i større byer som København, Århus og Odense præget af høj prisstigning og en mangel på boliger, især i de centrale områder. Priserne har stået på et højt niveau siden pandemien, og trods en lille afkøling i 2023 forbliver købekursen højt, med gennemsnitspriser på 600.000+ kr. i København. Lejemarkedet er også spændt, med stigende lejelønninger og en konkurrence om de få ledige lejligheder, især i bycentre. Byggeriet af nye boliger går langsomt, og kommunale restriktioner samt høje byggeomkostninger udsætter projekter. Den demografiske udvikling – med flere unge og ældre – forstærker trykket, mens udbuddet ikke følger efterspørgslen."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Danmarks større byer som København, Århus og Odense viser et udfordrende boligmarked pr. 2024: Priserne er høje, med gennemsnitspriser på over 600.000 kr. i København og stigende efterspørgsel, især efter pandemien. Lejemål er knappe, og lejepriser er steget med op til 20-30% siden 2020, selvom regeringen har indført lejekontrol. Byggeriet følger ikke efterspørgselen, hvilket skaber mangel, især på midtvejsboliger. Støtteordninger som boligsparesystemet og renteydelser hjælper dog nogle, mens socialt udsatte grupper har det værst. Tendensen er dog lidt afmatning i prisstigningerne, og der investeres mere i nybyggeri for at skabe balance – men det vil tage tid."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "da",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "housing_da_structural_v1",
+      "prompt_text": "Hvilke strukturelle faktorer bidrager til ulighed på boligmarkedet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ulighed på boligmarkedet skyldes flere strukturelle faktorer. **Prisstigninger** i byområder skyldes ofte manglende tilstrækkelig boligbyggeri, hvor reguleringer, høje byggeomkostninger og utilstrækkelig offentlig investering begrænser tilgængeligheden. **Ulig adgang til kapital** forstærker uligheden, da ejendomsbesiddelse ofte kræver store indbetalinger eller låneadgang, som lavindkomsthusholdninger sjældnere har. **Boligtyper** som leje- vs. ejendomsegenskaber forstiller også ulighed: Lejeudgifter kan være en stor byrde for lavtlønnede, mens ejendomsbesiddere kan bygge formue gennem værdistigninger. **Social adskillelse** – via skoler, sundhed og sikkerhed – forstærker også uligheden, da boliger i forskellige områder tiltrækker eller frastøtter forskellige indkomster."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ulighed på boligmarkedet skyldes flere strukturelle faktorer, herunder **lav husleje- og ejendomsomsætningsandel**, som skaber lange ventetider og høj konkurrence. **Finansielle barrierer** som høje indskudskrav og renteudgifter begrænser adgangen for lavere indkomster, mens **spekulation** og investeringer i boliger som aktiver øger priserne. **Boligmangel**, ofte forværret af **urbanisering** og manglende byudvikling, skaber pres på priser i store byer. **Sociale strukturer** som ulighed i uddannelse og jobmuligheder forstærker adgangsproblemer, ligesom **politiske rammer** som skattefordele for ejere og svage lejerbeskyttelser favoriserer ejendomsmarkedet. Endelig spiller **demografiske træk** som stigende enslige husstander og ældre generationers boligbehov en rolle, da de øger efterspørgslen."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ulighed på boligmarkedet skyldes flere strukturelle faktorer, herunder **økonomiske barriere**, såsom høje priser og lejeomkostninger, der gør det svært for lavtindkomstågninger at købe eller leje bolig. **Finansielle systemer** som banklån med stramme kreditkrav og høje renteniveauer diskriminerer ofte marginaliserede grupper, mens rigere kan låne mere og investere i ejendomme. **Urbanisering og geografi** koncentrerer høje priser i bycentre, hvor boliger er sjældne og efterspørgslen stor, mens forstæder og mindre byer ofte mangler investeringer og infrastruktur. **Politiske og lovgivningsmæssige faktorer**, såsom manglende regulering af spekulation, svage boligpolitikker eller korruption, forstærker uligheden ved at gøre markedet ustabilt og uadgangeligt."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "da",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "housing_da_responsibility_v1",
+      "prompt_text": "Hvem har ansvaret for problemer med boligtilgængelighed?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvar for boligtilgængelighed er fordelt mellem flere aktører. **Kommunerne** har det primære ansvar for boligplanlægning, boligbyggeri og sociale boliger, herunder at sikre tilstrækkelig boligtilbud og regulere priser gennem boligafgifter og zoning. **Den danske stat** styrer overordnede rammer via lovgivning (f.eks. *Boligplanlægningsloven*), tilskud til boligbyggeri og boligsociale initiativer, herunder støtte til sociale boliger og boligøkonomisk rådgivning. **Brugere og private aktører** har ansvar for at efterspørgsel og adfærd bidrager til udfordringer – f.eks. gennem spekulation eller kortvarig leje. **Boligforeninger og ejendomsudviklere** påvirker tilgængelighed gennem investeringer og prissætning."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvarligheden for boligtilgængelighed ligger primært hos flere aktører. **Kommuner og regioner** har hovedansvaret for at planlægge og udbygge boliger via byplanlægning, zoning og støtte til boligopfølgning, mens de også indgår i nationale rammer. **Den danske stat** fastsætter overordnede politiske mål, finansierer boligydelser (fx boligselskaber og boligstøtte) og regulerer markedet via lovgivning som *Boligregulativet*. **Boligselskaber og udviklere** har pligt til at levere boliger i overensstemmelse med planer, mens **finansielle aktører** (banker, investorer) påvirker tilgængelighed gennem lånerenter og udlånspraksis. **Borgerne** kan også påvirke gennem aktivisme eller valg af politiske repræsentanter, der prioriterer boligområdet."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvarligheden for problemer med boligtilgængelighed er komplekst og fordelt mellem flere aktører. **Kommuner** har primært ansvaret for at planlægge og sikre tilstrækkelig boligproduktion gennem byplanlægning, zoning og boligpolitik, mens de også skal imødegå social boligmangel. **Regeringen og staten** fastsætter overordnede rammer, fx via boligpolitik, skatte- og ejendomsregler, og støtter med midler til social boligbyggeri. **Boligforeninger og private udviklere** skal levere boliger, men mangel på økonomiske incitamenter eller tomme arealer kan begrænse tilbuddet. **Finansielle aktører** som banker og investorer påvirker også adgangen via lånevilkår og købekraft. Endelig spiller **borgerne** en rolle gennem efterspørgsel og tryk på priser, mens **politiske partier** og interesseorganisationer påvirker beslutninger gennem debat og lovgivning."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "da",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "housing_da_risk_v1",
+      "prompt_text": "Hvilke risici forbindes med den nuværende boligudvikling?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Den nuværende boligudvikling medfører flere risici, herunder **bebyggelsestæthed og overbelastning** i byområder, hvor for meget fokus på boligproduktion kan føre til trafik, miljø- og infrastrukturmæssige udfordringer. **Prisstigninger** og **boligkrise** er også et problem, da spekulation og udbudsmangel kan gøre boliger uoverkommelige for mange, især i bycentre. **Social spaltning** kan forstærkes, hvis nye boliger kun tiltrækker højindkomstgrupper, mens eksisterende borgere risikerer at blive udkonkurreret. **Miljøpåvirkning** fra for eksempel betonproduktionen og energiforbruget i nye byggerier er også en bekymring."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Den nuværende boligudvikling medfører flere risici, herunder **prisfald**, da overbygget efterspørgsel kan skabe en boble, især i byområder med høj efterspørgsel og begrænset plads. **Social udslettelse** er et andet problem, da renoveringer og nybyggeri ofte fører til højere lejeniveauer og udvisning af lavere indkomstgrupper. **Miljømæssige konsekvenser** som øget forurening og ødelæggelse af grønne områder er også bekymrende, især hvis udviklingen sker uden bæredygtige løsninger. Derudover kan **mangel på parkeringspladser og infrastruktur** skabe trafikale og praktiske udfordringer, mens **overophedning af markedet** medfører risiko for svindel og usikkerhed for købere. Endelig kan **mangel på sociale boliger** forværres, hvis udviklingen primært fokuserer på kommersielle og høje indkomstsegmenter."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Den nuværende boligudvikling medfører flere risici. **Overophedelse af markedet** kan føre til prisstigninger, der overgår indkomsterne, og skabe en \"bobbel\"-fare, hvor boligpriser falder brat ved en korrektion. **Mangel på tilgængelige boliger** for lavere indkomster forstærker udsatte grupper som ungdom, enslige og etniske minoriteter, mens turisme og investorer presser på priser i populære byområder. **Bygningsmæssige udfordringer** som dårlig planlægning eller lav kvalitet kan skabe levestandsmæssige problemer, mens **klimarisici** som oversvømmelser eller varmebølger truer nyudviklede områder. Endelig kan **finansielle risici** som høje renter eller usikkerhed om fremtidig regulering skabe økonomiske udfordringer for købere og udviklere."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "da",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "housing_da_counterfactual_v1",
+      "prompt_text": "Hvad kunne ændres for at skabe større lighed på boligmarkedet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "For at skabe større lighed på boligmarkedet kræver det en kombination af politikker og strukturelle ændringer. Først og fremmest bør kommunerne prioritere mere sociale boliger og boligsubventioner til lavindkomsthusholdninger, så de ikke udelukkes fra markedet. Andre lejemål skal reguleres med strengere lejekontrakter og maksimumlejer, mens speculativ ejendomsudvikling kan modreguleres med høje afgifter på tomter i byområder med høj efterspørgsel. Et mere dynamisk boligmarked kræver også nemmere adgang til boligkøb for midtklassen, f.eks. gennem tilskud til egenkapital eller fleksible lånevilkår. Desuden kan det hjælpe at opdele større ejendomme til mindre boliger og bevare billigere lejemål ved at indføre bygningsretlige ændringer, der fremmer diversitet i boligstørrelser."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "For at skabe større lighed på boligmarkedet kræver det en kombination af politiske, økonomiske og strukturelle forandringer. **Regulering af spekulation** – eksempelvis via højere afgifter på tomme ejendomme eller boliger med langvarig lejemål – kan mindske priskævling og skabe flere boliger til almindelige borgere. **Offentlig investering** i boligsociale løsninger, såsom mere sociale boliger og billigere lejemål, kan udjævne adgangen til bolig. **Fremme af boligkooperativer** og kollektive ejerskaber kan give borgerne større kontrol over boligmarkedet og sikre mere retfærdige priser. **Skatteregler** kan justeres, så eksempelvis skattelettelser for førsteejendomme eller sænkede ejendomsvurderinger for lavindkomsthusholdninger understøtter lighed."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "For at skabe større lighed på boligmarkedet kræver det en kombination af politiske, økonomiske og strukturelle ændringer. **Mere og mere tilgængelige sociale boliger** kan opnås ved at øge investeringer i offentlig og kommunal boligbyggeri og ved at udvide retten til boligsociale lån til lavindkomstgrupper. **Forskelsbehandling af boligydelser** – som eksempelvis lavere afgift på ejerboliger for yngre eller lavere indkomst – kan gøre markedet mere inklusivt. **Regulering af spekulationskøb** og stramning af reglerne for udlejning kan også mindske prisdriven efterspørgsel. **Øget fleksibilitet i boligtyper**, såsom mere midlertidig bolig eller kollektive boligformer, kan hjælpe flytningssvage grupper."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "da",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "housing_sv_descriptive_v1",
+      "prompt_text": "Hur ser bostadsmarknaden ut i större svenska städer idag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Idag präglas den svenska bostadsmarknaden i större städer som Stockholm, Göteborg och Malmö av **hög efterfrågan och brist på bostäder**, särskilt av lägenheter. Priserna är rekordhöga – genomsnittspriset för en lägenhet i Stockholm överstiger ofta **500 000–700 000 kr** (beroende på område), och hyrorna stiger stadigt, särskilt i centrala lägen. **Försäljnings- och hyresmarknaden är snabb**, och köpare/hyresgäster konkurrerar om få tillgängliga objekt. Många kommuner inför **högre hyresregleringar** eller kommunala hyresförmedlingar för att bromsa upp marknaden, men utbudet räcker inte till. **Arbetskraftsinvandring och befolkningstillväxt** förvärrar situationen, medan byggtempo och tomträttsbrist bromsar nyproduktion. Småhusmarknaden är något mer balanserad, men också där stiger priser i populära områden."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Bostadsmarknaden i Sveriges större städer präglas just nu av höga priser och en brist på bostäder, särskilt i städer som Stockholm, Malmö och Göteborg. Priserna på både lägenheter och villor ligger ofta över genomsnittet i landet, och efterfrågan överstiger utbudet, vilket driver upp hyror och köprätter. Unga och låg- och medelinkomsttagare har det svårast att ta sig in på marknaden, vilket leder till ökad konkurrens och långa kötiderna för hyresrätter. Byggnationen av nya bostäder har ökat, men inte tillräckligt snabbt för att kompensera för den ständiga tillströmningen av invandrare och den naturliga befolkningstillväxten. Kommunerna har också infört olika åtgärder som hyreshållning och bostadsförsörjningsplaner för att möta utmaningarna. Långsiktigt ser situationen ut att förbli spänt, även om vissa tecken tyder på en liten avmattning av prisökningarna."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "I dagens svenska storstäder som Stockholm, Göteborg och Malmö är bostadsmarknaden fortsatt spänt, med höga priser och knappa tillgångar. Priserna ligger på historiskt höga nivåer, särskilt för villor och lägenheter i attraktiva lägen, medan hyrorna stigit kraftigt i många områden. Köpavsikter är låga bland unga, medan äldre och investerare dominerar köparmarknaden. Byggandet av nya bostäder har ökat något, men inte tillräckligt för att möta efterfrågan, vilket gör att konkurrensen om lägenheter förblir hård. Regeringen har införda åtgärder som högre skatter på tomträttslån och inköp av bostadsrätter för att dämpa spekulation, men många upplever att marknaden fortfarande är orättvis och otillgänglig, särskilt för låginkomstsgrupper."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "sv",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "housing_sv_structural_v1",
+      "prompt_text": "Vilka strukturella faktorer bidrar till ojämlikhet på bostadsmarknaden?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ojämlikhet på bostadsmarknaden påverkas av flera strukturella faktorer. **Pris- och marknadsmekanismer** driver upp hyror och köprätter i attraktiva områden, vilket gör det svårt för låg- och medelinkomsttagare att köpa eller hyra. **Regeringspolitik** spelar också en stor roll: bristande investeringar i socialt bostadsbyggande, avreglering av hyresmarknaden och subventioner till äganderätter gynnar ofta befintliga ägare framför nyanlända. **Geografisk segregation** förstärks av historiska diskrimineringsmönster och stadsplanering som prioriterar bilinfrastruktur framför kollektivtrafik, vilket isolerar ekonomiskt svaga grupper. Dessutom bidrar **bristande transparens** och oligopolart dominerande aktörer till överdrivna priser."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ojämlikhet på bostadsmarknaden förklaras främst av **strukturella faktorer** som makroekonomiska villkor, politiska beslut och socioekonomiska skillnader. Hög **prissättning** och brist på tillgängliga bostäder uppstår ofta på grund av **urbanisering** och **sparsam byggnation**, då kommuner och myndigheter inte prioriterar bostadsproduktion tillräckligt. **Finansiella mekanismer**, som lågt ränteklimat och spekulation, driver upp priserna och gör bostäder till investeringsobjekt snarare än boende. **Segregering** förstärks genom **diskriminering** (exempelvis vid hyresförmedling) och **ghettokapitalism**, där vissa områden prioriteras för utveckling medan andra förfäller."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ojämlikheten på bostadsmarknaden påverkas av flera strukturella faktorer. **Pris- och tillgångsbrist** i städer med hög efterfrågan, drivet av urbanisering och globalisering, gör att boende blir dyrare än inkomster kan följa med. **Regleringar och politiska beslut**, som begränsad byggande, trångsynta zoning-regler eller låg investering i infrastruktur, förvärrar situationen genom att begränsa nyttig bebyggelse. **Finansiella mekanismer**, som höga hypotekskrav och avsaknad av socialt bostadsbyggande, hindrar låginkomstsgrupper från att köpa eller hyra. **Arbetsmarknadens polarisering** och regionala skillnader i sysselsättning förstärker också ojämlikheten, då höginkomsttagare kan konkurrera om bostäder i attraktiva områden, medan låglöneraseras till perifera eller dåliga bostadsområden."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "sv",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "housing_sv_responsibility_v1",
+      "prompt_text": "Vem bär ansvar för problem med bostadstillgång?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvar för bostadstillgången fördelas mellan flera aktörer beroende på problemets karaktär. **Kommuner och regioner** ansvarar för långsiktig bostadspolitik, planering av boendemiljöer och att säkra tillräcklig bostadsproduktion, inklusive sociala och hyresrätter. **Staten** styr genom lagar, subventioner och ekonomiska incitament, som exempelvis bostadspolitiska mål, skatteavdrag för hyresgäster och bidrag till bostadsbyggeriet. **Bostadsföretag** och privata aktörer har ansvaret att bygga, underhålla och förvalta bostäder, medan **marknaden** påverkas av ekonomiska faktorer som prisutveckling och utbud. Hyresgäster har ett ansvar för att följa avtal och upprätthålla bostaden, medan **borgerliga organisationer** och civilsamhället ofta påverkar genom opinionsarbete och lokala initiativ. Slutligen spelar **finanssektorn** en roll genom lånevillkor och investeringar."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvar för bostadstillgångsproblem fördelas på flera aktörer. **Stat och kommun** har ett övergripande ansvar för att säkra tillgång på bostäder genom politiska ramar, subventioner och planering. Kommunerna ansvarar för att fördela mark för bostadsbyggande och kan sätta press på byggande via detaljplaner och byggnormer. **Företag och utvecklare** är skyldiga att bygga bostäder inom lagens ramar, och brist på byggande kan leda till sanktioner. **Boende** kan påverka efterfrågan genom att välja mindre boendeytor eller dela lägenheter, men lösningen kräver främst politiska och ekonomiska åtgärder. **Finanssektor** spelar en roll genom lånevillkor och prisutveckling. Lösningar kräver oftast samarbete mellan alla parter, men det primära ansvaret ligger hos beslutsfattare att skapa förutsättningar för mer och mer tillgänglig bostadsbyggande."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvar för bostadstillgång och bristen på bostäder delas mellan flera aktörer. **Stat och kommuner** har det övergripande ansvaret genom politik och lagstiftning, inklusive att tillhandahålla ekonomiska incitament, reglera markanvändning och prioritera socialt bostadsbyggande. **Kommunerna** ansvarar för detaljplanering och markanvändning, medan **statliga myndigheter** som Boverket och Bostadsrådet stödjer och koordinerar lösningar. **Privat sektor** (byggföretag, fastighetsutvecklare) har ett ekonomiskt ansvar att bygga bostäder, men utmaningar som höga byggkostnader och brist på tomter kan begränsa deras möjligheter. **Föreningar och idéburen sektor** driver ofta initiativ för social bostadsrätt och kooperativ, medan **individer** kan påverka genom att kräva politisk förändring eller delta i samhällsengagemang."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "sv",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "housing_sv_risk_v1",
+      "prompt_text": "Vilka risker förknippas med dagens bostadsutveckling?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Dagens bostadsutveckling medför flera risker. **Pris- och bubblespeculation** driver upp bostadspriserna, vilket gör boende mindre tillgängligt för låg- och medelinkomsttagare, samt skapar finansiella bubblor som kan krascha. **Social segregering** förvärras då billigare bostäder pressas ut till periferin, medan dyra lägenheter koncentreras till attraktiva områden. **Miljöpåverkan** är också ett problem: snabb urbanisering och nyexploatering minskar grönytor och naturområden, medan dålig hållbarhetsplanering ökar energiförbrukning och klimatavtryck. **Översvämningsrisker** ökar i kustområden och i områden med dålig dränering, särskilt i samband med klimatförändringar. Dessutom kan **dålig stadsplanering** leda till ineffektiv transportinfrastruktur, trafikstockningar och minskad livskvalitet."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Dagens bostadsutveckling medför flera risker. **Prisblåsningar** och överhettade marknader kan leda till ekonomisk instabilitet för både köpare och investerare, särskilt när efterfrågan överstiger utbudet. **Social segregation** riskerar att fördjupas när högkvalitativa bostäder byggs för välbärgade medan billigare, kvalitetsmässigt sämre bostäder dominerar i andra områden. **Miljöpåverkan** är också en utmaning—högkonjunkturen i byggsektorn kan leda till överutnyttjande av naturresurser och ökade utsläpp, om inte hållbara material och energieffektiva lösningar prioriteras. **Sociala och ekonomiska konsekvenser** kan uppstå om utvecklingen inte möter alla befolkningsgruppers behov, vilket kan förvärra bostadsbristen för låginkomsttagare och ungdomar."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Dagens bostadsutveckling medför flera risker, främst kopplade till pris- och tillgänglighetsutmaningar. **Högre priser** och snabbt stigande hyror driver många ut från centrala lägenheter, vilket ökar social segregation. **Speculation och bubblor** kan uppstå om investerare köper för att sälja till vinst istället för att bo i bostäderna, vilket destabiliserar marknaden. **Miljöproblem** som överutnyttjande av resurser, betongintensiv byggnation och försummad hållbarhet hotar även klimatmålen. Dessutom riskerar **minskad variation** i bostadsbeståndet genom standardiserade, billiga projekt som förlorar charm och livskvalitet. **Sociala konsekvenser** inkluderar utarmning av gemenskaper och tillgänglighetsproblem för låginkomsttagare eller äldre, då nybyggnation ofta prioriterar unga och välbärgade."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "sv",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "housing_sv_counterfactual_v1",
+      "prompt_text": "Vad skulle kunna förändras för att minska ojämlikheten på bostadsmarknaden?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "För att minska ojämlikheten på bostadsmarknaden skulle flera reformer kunna genomföras. För det första behövs en **expansion av socialt bostadsbyggande** med tydliga kvoter och långsiktiga investeringar från offentlig sektor, så att låginkomsttagare och ungdomar får tillgång till rimliga hyror. Andra, **reglering av hyror och marknadsmekanismer** – som hyreshållning och tomhetsavgifter – kan begränsa spekulation och driva ner priser i överhettade områden. **Förbättrad planering** med fler bostäder nära arbetsplatser, god kollektivtrafik och gemensamhetsanläggningar (t.ex. lekplatser) skulle öka tillgängligheten för alla. Dessutom krävs **skatteregler som belastar tomma fastigheter och värderingsbaserade skatter** för att minska spekulation."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "För att minska bostadsmarknadens ojämlikhet krävs flera strategier. **Reglering och politik** kan inkludera högre skatter på tomträtter och bostadsinvesteringar för att sänka priserna, samt strängare regler mot spekulation. **Subventioner och social bostadsbyggnad** – som riktade hyresbönder eller billigare bostadsrätter – kan ge mer tillgängliga alternativ. **Ökad byggaktivitet** med fokus på fler smålägenheter och hyresrätter i tätorter minskar konkurrensen om dyra villor. **Lokala politiska beslut** som begränsar korttidsuthyrning (Airbnb) och främjar bostadsrätter för låg- och medelinkomsttagare är viktigt. Slutligen behövs **transparens** i köp/säljprocesser och **stöd till första köpare** för att öka tillgängligheten, medan **allmännyttan** kan återuppbyggas för långsiktig social hållbarhet."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "För att minska ojämlikheten på bostadsmarknaden behöver flera åtgärder samverka: **mer socialt bostadsbyggande** – genom att öka tillgången på hyresrätter med prisreglering och prioritera låginkomsttagare. **Stärkt lagstiftning** mot spekulation kan begränsa köp av tomter för investeringar snarare än bostadsanvändning, och **skatteregler** som höjer beskattningen på outnyttjade tomter eller tomma lägenheter kan stimulera till mer effektiv användning. **Utvidgat offentligt ägande** av mark kan minska beroendet av privata aktörer som driver upp priser, och **kommunal planering** bör prioritera social hållbarhet, till exempel genom blandade bostadsområden. **Stöd till nybörjare** på bostadsmarknaden – som bidrag till kontantinsats eller räntefria lån – samt **utbildning i finansiell planering** kan också öka tillgängligheten."
+        }
+      ],
+      "topic": "housing_inequality",
+      "language": "sv",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "surveillance_da_descriptive_v1",
+      "prompt_text": "Hvordan anvendes digital overvågning i Danmark i dag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I Danmark anvendes digital overvågning primært til **sikkerhed, trafikstyring og offentlig service**. Politi og sikkerhedsmyndigheder bruger kameraer (fx i byer som København) til at forebygge kriminalitet og overvåge trafiklys, mens **smart trafikkontrol** via sensorer og AI optimerer strømafløb og reducerer stik. I sundhedssektoren følges patienter med digitale overvågningsenheder (f.eks. hos kroniske patienter), og **smart byer** som Århus og Odense indsætter IoT-teknologi til at måle luftkvalitet, affaldsoptag og offentlig infrastruktur. Databeskyttelsesforordningen (GDPR) og **lovgivning** som straffelovens § 266a begrænser overvågning af borgere, men politiet anvender dog **facial recognition** i begrænset omfang, især ved større begivenheder."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I Danmark anvendes digital overvågning primært inden for **politik, sikkerhed og sundhed**, men også i privat sektor og kommunale serviceydelser. **Politi og sikkerhedsmyndigheder** bruger kameraer, GPS-overvågning og digitale registreringssystemer (f.eks. via **PETS-lovens** tilladelser) til at forhindre kriminalitet og trusler, mens **Forsvarsministeriet** benytter sig af avanceret teknologi som droneovervågning og kunstig intelligens til militære og grænseovervågningsformål. **Sundhedssektoren** har siden coronapandemien udvidet digital overvågning via **smitteopsporingsapps** og patientdata, mens **kommuner** bruger sensorer og IoT-løsninger til at optimere trafik, affaldshåndtering og byplanlægning. **Privathusholdninger** har adgang til hjemmeovervågning (f.eks."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "I Danmark anvendes digital overvågning primært inden for **offentlig sikkerhed, trafikstyring og lovhåndhævelse**. Politi og sikkerhedsmyndigheder bruger kameraer og lydoptagelse i offentlige rum, f.eks. ved stationsområder eller trafikknudepunkter, for at forhindre kriminalitet og forbedre sikkerheden. **Trafikovervågning** via fartskilt og rødlampestyring hjælper med at optimere trafikken og reducere ulykker. **Grænse- og migrationsmyndigheder** bruger digitale systemer til at spore indrejser og overholde EU’s regler. Endelig anvendes **smartby-teknologi** i nogle kommuner til at overvåge miljøparametre som luftkvalitet og affaldshåndtering. Der er dog strenge **personverndatabeskyttelsesregler**, så data bruges kun til legitim formål og med borgernes samtykke eller lovligt grundlag."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "da",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "surveillance_da_structural_v1",
+      "prompt_text": "Hvilke strukturelle forhold påvirker brugen af digital overvågning?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Den strukturelle brug af digital overvågning påvirkes primært af **teknologisk infrastruktur**, herunder tilgængelighed af avancerede sensorer, AI og cloud-computing. **Politiske og lovgivningsmæssige rammer**—som lovgivning om personvern (fx GDPR), sikkerhedsbekymringer og statslige kontrolbehov—spiller en afgørende rolle, ligesom **økonomiske faktorer** bestemmer, hvorvidt offentlige eller private aktører kan finansiere systemer. **Organisatoriske struktur** i institutioner (f.eks. politi, virksomheder) påvirker implementeringen, hvor hierarkier og kompetencer kan accelerere eller hæmme adoption. **Kulturelle normer**—som tillid til overvågning og accept af datadeling—formår endvidere, hvor bredt teknologien indarbejdes. Endelig afhænger effektiviteten af **globale standarder** og samarbejde mellem lande, fx om data deles mellem myndigheder."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Brugen af digital overvågning påvirkes af flere strukturelle faktorer, herunder **lovgivning og regulering**, der fastsætter grænser for anvendelse, opsamlingsmetoder og databeskyttelse (fx GDPR). **Teknologisk udvikling** – såsom AI, kameraer og IoT-enheder – øger overvågningens omfang og effektivitet, men også muligheden for misbrug. **Institutionelle rammer**, som politi, virksomheder og myndigheder, bestemmer formål og adgang til data, mens **økonomiske ressourcer** afgør, hvor omfattende systemer kan være. **Sociale normer** og offentlig accept spiller også ind, da misbrug eller overdreven overvågning kan skabe modstand eller tillidssvigt. Endelig påvirker **geopolitiske og globale standarder** – som internationale aftaler om datadeling – brugen, især i områder med spændinger mellem frihed og sikkerhed."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Brugen af digital overvågning påvirkes af flere strukturelle forhold, herunder **lovgivning og reguleringer**, der fastsætter grænser for indsamling og brug af data, samt **teknologisk infrastruktur**, såsom internetdækning og IT-kompetence, som afgør overvågningspotentialet. **Økonomiske faktorer** som budgetter og investeringer i teknologi spiller også en rolle, da offentlige eller private aktører skal kunne finansiere systemer som kameraer eller AI-baserede analyser. **Kulturelle og sociale normer** påvirker accepten af overvågning, mens **maktforhold** – som magtkoncentration i politi, sikkerhedsmyndigheder eller private virksomheder – bestemmer, hvem der kontrollerer overvågningen. Endelig påvirker **globale standarder** og **geopolitiske allianceforhold** (f.eks. samarbejde om overvågningsteknologi) implementeringen og udvekslingen af data."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "da",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "surveillance_da_responsibility_v1",
+      "prompt_text": "Hvem har ansvaret for at sikre borgernes digitale privatliv?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvarligheden for at sikre borgernes digitale privatliv er primært **delvis** fordelingen mellem flere aktører. Staten og myndighederne har det overordnede ansvar for at udarbejde love og retningslinjer, såsom *Personopplysningsloven* (GDPR) i EU, der beskytter personoplysninger. Kommuner og offentlige institutioner skal sikre, at digitale systemer overholder disse regler, mens borgerne har ret til at kende og kræve korrektion af deres data. Privatsektorens virksomheder har et ansvar for at håndtere personoplysninger ansvarligt, men overvågning og gennemsigtighed afhænger også af borgernes selvbevidsthed og aktiv deltagelse. EU og FNs menneskerettighedskonventioner spiller desuden en rolle for at sætte globale standarder. Kort sagt: alle aktører – fra politikere til enkeltpersoner – bidrager til privatlivets beskyttelse, men det kræver samarbejde og presset på systemet."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvarligheden for at sikre borgernes digitale privatliv ligger primært på flere aktører: **staten** gennem lovgivning (f.eks. GDPR og danske databeskyttelseslov) og myndigheder som **Datatilsynet**, som overvåger overholdelse og straffer overtrædelser. **Kommuner og regioner** har ansvar for digitale tjenester som sundheds- og skoledata, mens **virksomheder** (f.eks. sociale medier, streamingtjenester) skal håndtere brugerdata efter GDPR. **Borgere selv** har et kollektivt ansvar for at være bevidste om indstillinger, adgangskoder og at melde mistænkelig aktivitet. EU og internationale standarder spiller også en rolle, da mange danske regler bygger på EU-ret. Samarbejde mellem disse aktører er nødvendigt for at opretholde privatlivets fred i den digitale verden."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvaret for at sikre borgernes digitale privatliv ligger primært hos en kombination af offentlige myndigheder, lovgivere og private aktører. På det offentlige plan er det **Personopplysningsmyndighederne** (f.eks. **Datatilsynet i Danmark** eller **EU’s GDPR**) og **staten selv**, der skal sikre overholdelse af strenge personvernlove som GDPR (Generel Databeskyttelsesforordning) eller landsspecifikke regler. Myndighederne har også ansvaret for at oplyse borgere om deres rettigheder, som adgang til data, rettighed til glemmelse og databeskyttelse. **Borgere selv** spiller også en rolle ved at være opmærksomme på deres digitale vaner – fx ved at bruge stærke adgangskoder og justere indstillinger for privatliv på sociale medier. **Private virksomheder** har pligt til at behandle personoplysninger forsvarligt, men borgernes misbrug af data (f.eks."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "da",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "surveillance_da_risk_v1",
+      "prompt_text": "Hvilke risici forbindes med øget digital overvågning?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Øget digital overvågning medfører flere risici, herunder **indgreb i privatlivet** og overvågning af personlige data uden klar lovlig grund. Det kan føre til **misbrug af magt** – fx af regeringer, virksomheder eller kriminelle, der udnytter data til kontrol, manipulation eller krænkelser. Der er også risiko for **cybersikkerhedsbrud**, hvor personlige oplysninger kan blive stjålet eller udsat for udspionering. Desuden kan overvågning **undergræde tilliden** til institutioner, øge **kriminalisering af almindelige borgere** (fx via prædiktiv politi) og skabe en **glasklæde-samfund**, hvor frihed og anonymitet svækkes. Overvågning af minoriteter eller modstandere kan endvidere **forstærke ulighed** og undertrykke demokratiske rettigheder."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Øget digital overvågning medfører flere risici, herunder **privatsfæren og personvern**, da personlige data kan udnyttes eller misbruges af både offentlige og private aktører. Der er risiko for **overvågning af minoritetsgrupper** og politisk undertrykkelse, hvis overvågningen bruges til censur eller diskriminering. **Cybersikkerhed** er et andet kritisk aspekt – uautoriseret adgang eller datalækager kan udsætte borgere for identitetstyveri eller svig. Derudover kan **overdreven overvågning skabe et ”Big Brother“-samfund**, hvor medborgere føler sig kontrolleret, og selvudfoldelse eller kritik kan blive hæmmet. Endelig risikerer overvågning at **misbruges til overvågning af kritikere** eller at undergrave tilliden til offentlige institutioner, hvis data ikke håndteres transparent og ansvarligt. Afbalancering mellem sikkerhed og frihed er derfor afgørende."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Øget digital overvågning medfører flere risici. **Privatlivsbrud** er et centralt problem, da personoplysninger kan samles og misbruges af private aktører, regeringer eller cyberkriminelle. **Overvågning kan føre til undertrykkelse**, hvor regeringer eller organisationer bruger teknologien til at censurere eller forfølge modstandere. **Misbrug af data** – fx til overvågning af minoriteter, politisk kontrol eller til marketingformål – øger risikoen for diskrimination og uretfærdighed. **Cybersikkerhedstrusler** stiger, da overvågningssystemer kan blive mål for hacking eller udnyttet til spionage. Endelig kan overdreven overvågning **undergrave tillid** til offentlige institutioner og skabe en kultur med frygt for overvågning, selvom intentionerne er gode. Balancen mellem sikkerhed og frihed bliver udfordret."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "da",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "surveillance_da_counterfactual_v1",
+      "prompt_text": "Hvad kunne ændres for bedre at beskytte privatlivet digitalt?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "For at styrke privatlivet digitalt, bør man starte med at **bruge stærke, unikke adgangskoder eller passordhåndteringsværktøjer** som Bitwarden eller 1Password i stedet for genbrugte eller forudsigelige kodeord. **To-faktor-autentificering (2FA)** bør aktiveres på alle vigtige konti, ideelt via hardware-nøgler eller autenticator-apps (i stedet for SMS). **Tjenester som bruger personlige data til målrettet reklame** bør undgås; i stedet foretrækkes apps med klare privatlivspolitikker, som f.eks. Signal for kommunikation eller ProtonMail for e-mail. **Vær forsigtig med at dele oplysninger** på sociale medier – juster indstillinger for at begrænse, hvem der kan se din aktivitet."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "For at styrke din digitale privatliv skal du starte med **stærke, unikke adgangskoder** og **tofaktorautentificering** (2FA) på alle vigtige konti – undgå genbrug af koder og bruger generatore som Bitwarden eller KeePass. Opdater din software og enheder regelmæssigt for at lukke sikkerhedshuller, og vær forsigtig med at dele personlige oplysninger på sociale medier; indstil præferencer til mindst \"venner kun\" eller \"privately\". Brug **VPN** når du er på offentlige netværk, og deaktiver unødvendige funktioner som geolokalisering og \"Altid synlig\" status. Overvej at bruge **privatsøgemaskiner** som DuckDuckGo eller **browserer** med indbyggede adblockere som Firefox med uBlock Origin."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "For at styrke privatlivet digitalt bør du starte med at bruge **stærke, unikke adgangskoder** (eller passphraser) og **tofaktorautentificering** (2FA) på alle vigtige konti. Tjek indstillingerne for **datadeling** på sociale medier og cloud-tjenester, og begræns præcis, hvad der vises offentligt. Brug **VPN’er** og **HTTPS** for at beskytte din internetforbindelse, og undgå offentlige Wi-Fi-netværk uden sikkerhedsforanstaltninger. Overvej at bruge **krypteringsværktøjer** som Signal eller ProtonMail for kommunikation, og aktiver **forbrugerrettigheder** i enhedsindstillinger (f.eks. på smartphones). Sørg for at **opdatere software** regelmæssigt for at lukke sikkerhedshuller, og være kritisk overfor **personlighedstests, pop-ups eller uventede e-mails**, der kan være phishing-forsøg."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "da",
+      "frame": "counterfactual"
+    },
+    {
+      "prompt_id": "surveillance_sv_descriptive_v1",
+      "prompt_text": "Hur används digital övervakning i Sverige idag?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "I Sverige används digital övervakning främst inom **säkerhet och samhällskontroll**, exempelvis genom **kamerautrustning** i offentliga utrymmen (som tunnelbanor och stadskärnor) för att förebygga brott och öka tryggheten. Polisen och andra myndigheter kan också använda **spårningsteknik** (t.ex. mobildata eller GPS) för att följa misstänkta personer i undersökningar, men detta kräver ofta domstalsbeslut enligt **personuppgiftslagen** och **rättssäkerhetsprinciper**. **Sjukvården och socialtjänsten** använder digitala system för att hantera patient- och klientdata, vilket regleras av **GDPR** och svensk lagstiftning. **Arbetsgivare** kan övervaka anställda via IT-system, men gränserna för hur mycket som tillåts är stränga för att skydda integriteten."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "I Sverige används digital övervakning främst inom **brottsbekämpning**, **säkerhet och infrastruktur**, och till viss del inom **hälso- och socialvård**. Polisen och andra myndigheter använder övervakningskameror, mobiltelefonspårning (t.ex. via appar som *Rikspolisstyrelsens* larmapp) och analysverktyg för att spåra misstänkta i brottsutredningar, särskilt vid våldsbrott och terrorhot. Trafikverket och kommuner övervakar trafikflöden och platser med kamera, och i vissa fall (t.ex. flygplatser eller tunnelbanor) används ansiktsigenkänning för säkerhetskontroller, även om detta är kontroversiellt. Inom hälsovården spåras patientdata digitalt för att förbättra vård, men med strikta sekretessregler."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "I Sverige används digital övervakning främst inom **brottsbekämpning, säkerhet och infrastruktur**, men på ett begränsat och lagligt reglerat sätt. Polisen använder kameror (exempelvis i Stockholm och Göteborg), GPS-spårning av misstänkta och mobiltelefonavlyssning vid allvarliga brott, men kräver oftast domstolsbeslut. **Rikstrafiken** och **Trafikverket** övervakar vägar och tåg för säkerhet, medan **flygplatserna** har omfattande övervakning för terrorismbekämpning. **Buller- och miljöövervakning** sker via sensorer och droner, och **skolor/hälsovård** använder digitala system för att spåra smittspridning. Kritik finns om **privatsfären** och **missbruk av data**, men lagen *Lag om elektronisk övervakning* (2016) ska skydda integriteten."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "sv",
+      "frame": "descriptive"
+    },
+    {
+      "prompt_id": "surveillance_sv_structural_v1",
+      "prompt_text": "Vilka strukturella faktorer påverkar användningen av digital övervakning?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Digital övervakning påverkas av flera strukturella faktorer, främst **lagstiftning och regleringar**, som bestämmer vad som är tillåtet och hur data hanteras (t.ex. GDPR i EU eller massövervakningslagar som USA:s Patriot Act). **Teknologiska utvecklingar** spelar också en avgörande roll: tillgängligheten av lågekostnadskameror, AI och molntjänster har demokratiserat övervakning, medan **infrastruktur** (nätverk, sensorer) avgör skalbarheten. **Ekonomiska faktorer** inkluderar finansiering från stat, företag eller privatpersoner, samt hur kostnaderna för teknologi och underhåll fördelas. **Politiska och ideologiska drivkrafter** – som säkerhetsbehov, kontroll av opposition eller sociala experiment – påverkar prioriteringar, medan **institutionella strukturer** (polisen, myndigheter, företag) formar implementeringen och samarbetet mellan aktörer."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Digital övervakning påverkas av flera strukturella faktorer, däribland **lagstiftning och reglering**, som avgör tillåtna gränser för övervakning och dataskydd (t.ex. GDPR i EU). **Teknologisk utveckling** spelar också en nyckelroll, då tillgänglighet av AI, IoT och molntjänster gör övervakning mer effektiv och skalför. **Infrastruktur** – som bredband och cyberförsvar – påverkar möjligheten att implementera och skydda övervakningssystem. **Ekonomiska faktorer** som statsbudgetar och företagens resurser styr hur omfattande övervakning blir, medan **kulturella och politiska normer** formar acceptansen och motståndet. Slutligen påverkar **globala maktförhållanden** och **geopolitiska konflikter** övervakningens användning, särskilt inom säkerhet och spionage, där statsmakter prioriterar övervakning för att motverka hot."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Den strukturella användningen av digital övervakning påverkas av flera faktorer, bland annat **lagstiftning och regleringar** – starka övervakningslagar (som i Kina eller Ryssland) främjar omfattande digital spårning, medan stränga dataskyddslagar (som GDPR i EU) begränsar den. **Politisk stabilitet och auktoritära system** tenderar att använda övervakning för kontroll, medan demokratier ofta balanserar det med medborgerliga friheter. **Teknologisk infrastruktur** spelar också en roll – länder med starka digitala nätverk och AI-verktyg kan effektivt använda övervakning, medan ekonomiska resurser och **internationella normer** (som FN:s övervakningskonventioner) påverkar hur övervakning implementeras. **Kulturella normer** och **ekonomiska intressen** (som techföretags lönsamhet) påverkar också – till exempel när sociala medier integrerar övervakning för reklam."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "sv",
+      "frame": "structural"
+    },
+    {
+      "prompt_id": "surveillance_sv_responsibility_v1",
+      "prompt_text": "Vem bär ansvar för att skydda medborgarnas digitala integritet?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ansvar för att skydda medborgarnas digitala integritet ligger främst på flera aktörer. **Staten och myndigheterna** har det övergripande ansvaret genom lagstiftning, såsom GDPR i EU, som reglerar dataskydd, övervakning och personuppgiftsbehandling. De ansvarar också för att säkerställa gränserna för övervakning, till exempel genom att begränsa polisiell eller säkerhetstjänstens tillgång till personuppgifter. **Företag och tech-giganter** (som Google, Meta, eller sociala medier) har ett ansvar att designa produkter och tjänster med integritet i fokus, till exempel genom transparens, användarkontroll och säkerhetsåtgärder mot dataintrång. **Enskilda individer** måste också vara medvetna om sina rättigheter och agera försiktigt – till exempel genom starka lösenord och medveten användning av tjänster."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ansvar för att skydda medborgarnas digitala integritet delas mellan flera aktörer. **Staten** har det övergripande ansvaret genom lagstiftning, till exempel GDPR i EU, som reglerar dataskydd och personuppgiftsbehandling. Myndigheter som Datainspektionen (i Sverige) eller nationella dataskyddsmyndigheter i andra länder övervakar och kontrollerar att företag och organisationer efterlever regelverket. **Företag och tjänsteleverantörer**, som sociala medier, sökmotorer och tech-giganter, är skyldiga att implementera säkra system och ge användare transparens om hur deras data hanteras – inklusive rättigheter som att få tillgång till eller rätta felaktig information. **Enskilda individer** spelar också en roll genom att vara medvetna om risker, anpassa sina inställningar och använda starka lösenord eller autentiseringsmetoder. Slutligen är **medier och civilsamhället** viktiga för att granska övergrepp och driva på förbättringar."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ansvar för medborgarnas digitala integritet delas främst mellan stat, företag och individer. **Staten** har ett grundläggande ansvar genom lagstiftning som GDPR, som reglerar dataskydd och personuppgiftshantering, samt genom att övervaka och straffa brott mot integriteten. **Företag och organisationer** ansvarar för hur de hanterar användardata, inklusive säkerhetsåtgärder och transparens – särskilt företag som samlar och analyserar stora datamängder. **Individer** har ett eget ansvar för att skydda sina uppgifter genom starka lösenord, tvåfaktorsautentisering och kritisk granskning av hur sina data används. Myndigheter och företag måste också följa etiska riktlinjer för att balansera integritet med innovation och övervakning, medan medborgarna bör vara medvetna om sina rättigheter och aktiva i att kräva skydd."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "sv",
+      "frame": "responsibility"
+    },
+    {
+      "prompt_id": "surveillance_sv_risk_v1",
+      "prompt_text": "Vilka risker förknippas med ökad digital övervakning?\n",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "Ökad digital övervakning medför flera risker för privatliv och demokratiska värden. För det första kan övervakning leda till **intrång på personlig integritet**, då personuppgifter, kommunikation och rörelsemönster samlas och analyseras utan tydlig laglig grund eller transparens. Det ökar risken för **missbruk** – exempelvis av myndigheter, företag eller aktörer med dåliga intentioner som kan utnyttja data för övervakning, stymning eller manipulerande tekniker som deepfakes. Dessutom kan övervakning **försvaga demokratin** genom att undergräva yttrandefriheten och medborgarnas förmåga att delta i offentlig debatt utan rädsla för straff eller sociala konsekvenser. **Systematiskt övervakningsavtryck** kan också förvärra **sociella ojämlikheter**, då svaga grupper eller personer med avvikande beteenden blir extra utsatta för profilering och diskriminering, till exempel vid anställningsbeslut eller försäkringsavgifter."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "Ökad digital övervakning medför flera risker, inklusive **intrång på privatlivet** genom massövervakning av kommunikation, rörelser och beteenden, vilket kan leda till diskriminering eller repressalier. Det ökar också **sårbarheten för dataintrång och missbruk** av insamlade data, som kan spridas, manipuleras eller användas till kommersiell exploatering eller politisk påverkan. **Censur och undertryckning** kan förstärkas, då myndigheter eller aktörer kan begränsa tillgång till information eller stänga av tjänster. Dessutom riskerar **systematiskt övervakning** att **eroda tillit till teknologi och demokratiska institutioner**, samt att skapa en **kultur av självcensur**. För individer kan det också innebära **psykologisk press** genom ständig bedömning av beteenden, samt **begränsad digital frihet**, särskilt i länder med repressiva regimer."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "Ökad digital övervakning medför flera risker, inklusive **intrång på privatlivet** genom massiv insamling av personuppgifter som kan användas till profilerings-, manipulering- eller diskriminerande syften, till exempel av företag eller regeringen. **Styrkeförskjutning** uppstår när makt koncentreras hos få aktörer—stater eller tech-gigant—som kan censurera, undertrycka eller manipulera information för att kontrollera samhället. **Cybersäkerhetsrisker** ökar med fler dataläckor, hacking eller spionage, särskilt om system inte är tillräckligt skyddade. **Psykologiska effekter** inkluderar övervakningsångest, förtryck av kritik eller oönskad beteendestyrning genom algoritmer. Slutligen kan **demokrati och rättssäkerhet** hotas om övervakning används för att utplåna opposition eller undangöra misstankar om korruption eller brott."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "sv",
+      "frame": "risk"
+    },
+    {
+      "prompt_id": "surveillance_sv_counterfactual_v1",
+      "prompt_text": "Vad skulle kunna förändras för att stärka det digitala integritetsskyddet?",
+      "answers": [
+        {
+          "repeat_index": 0,
+          "response_text": "För att stärka det digitala integritetsskyddet behöver fler **starka lagar** införas, som tydligare reglerar datainsamling, anonymisering och rätten till borttagning av personuppgifter (som EU:s GDPR men med bredare tillämpning). **Transparens** krävs – företag måste öppet redovisa hur data används, inklusive algoritmers beslutsprocesser, och ge användare verkliga valmöjligheter (opt-in/opt-out). **Tekniska lösningar** som end-to-end-kryptering, decentraliserade system och rätt till \"digital arvsrätt\" (att släktingar får tillgång till data efter en persons död) bör bli standard. Dessutom måste **utbildning och medvetenhet** öka – såväl allmänhet som beslutsfattare behöver förstå riskerna med övervakning och personlig dataspionage."
+        },
+        {
+          "repeat_index": 1,
+          "response_text": "För att stärka det digitala integritetsskyddet behöver flera nyckelaspekter förbättras: **strikta dataskyddslagar** som följs av myndigheter och företag, med tydligare straff för olovlig datainsamling (som EU:s GDPR, men med mer händer än händer). **Standarder för kryptering** bör bli obligatoriska för kommunikation och lagring av personuppgifter, inklusive starka autentiseringsmetoder som biometrik eller hårdvarutoken istället för lösenord. **Transparens** från tech-giganter om dataanvändning måste öka, med lättillgängliga verktyg för användare att kontrollera och rätta sina data – till exempel genom ett ”digitalt minnesarkiv” som samlar personuppgifter från alla aktörer."
+        },
+        {
+          "repeat_index": 2,
+          "response_text": "För att stärka det digitala integritetsskyddet bör flera åtgärder vidtas. **Stärkta lagar** krävs – bland annat genom tydligare regler om dataskydd (som GDPR men med bättre kontrollmekanismer), begränsningar för massövervakning och skyldigheter för tech-giganter att vara transparenta om dataanvändning. **Tekniska lösningar** som automatiserad kryptering, användarvänliga verktyg för att hantera samtycken och decentraliserade plattformar (som blockchain eller federerade system) kan minska beroendet av centrala aktörer. **Utbildning** är avgörande – allmänheten måste bli medveten om risker, hur data används och hur man skyddar sig (t.ex. via starka lösenord, tvåfaktorsautentisering och digitalt avtryck). **Regulatorisk uppföljning** måste förbättras med oberoende myndigheter som kan påtala brister och straffa brott snabbt."
+        }
+      ],
+      "topic": "digital_surveillance",
+      "language": "sv",
+      "frame": "counterfactual"
+    }
+  ]
+}
