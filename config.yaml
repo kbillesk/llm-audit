@@ -6,8 +6,8 @@ ollama:
 
 model:
   #name: "ministral-3:8b-instruct-2512-q8_0"
-  #name: "gemma3:12b"
-  name: "ministral-3:8b-instruct-2512-fp16"
+  name: "gemma3:4b"
+  #name: "ministral-3:8b-instruct-2512-fp16"
   # Optional: sent as Ollama's top-level "system" field (system prompt).
   system: "Dit svar skal være kortere end 230 ord. Giv dit svar i en paragraf."
   # Convenience: sets Ollama options.num_predict unless you set num_predict explicitly.
